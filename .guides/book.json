@@ -1,0 +1,53 @@
+{
+ "name": "example assignment",
+ "children": [
+  {
+   "title": "Standard code tests",
+   "id": "9c8623eb-9eeb-5235-7dd8-4c29ba6f63be",
+   "pageId": "9c8623eb-9eeb-5235-7dd8-4c29ba6f63be",
+   "type": "page"
+  },
+  {
+   "title": "Advanced code tests",
+   "id": "83a97204-cf44-4e41-24fe-94a8003bc862",
+   "pageId": "83a97204-cf44-4e41-24fe-94a8003bc862",
+   "type": "page"
+  },
+  {
+   "id": "970d3f0d-5a7e-03bb-f997-3a20f09420c0",
+   "title": "Multi choices",
+   "pageId": "1a9f2403-fb28-34cd-9597-48cfe3c0cbcc",
+   "type": "page"
+  },
+  {
+   "id": "97e9ce0c-6f31-3df5-78a9-f6cd2aa14fa6",
+   "title": "Fill in the blanks",
+   "pageId": "83045c3c-57c9-c38a-269d-508eb6135622",
+   "type": "page"
+  },
+  {
+   "id": "0f05153c-e032-0436-5a0d-0810ad5b9bc9",
+   "title": "Free texts",
+   "pageId": "e06317ce-960c-7ae3-c8e4-1dd0de9fb497",
+   "type": "page"
+  },
+  {
+   "id": "8af92221-b20c-92fe-b4b3-41cc0c25f745",
+   "title": "Free text auto",
+   "pageId": "0ed1d6ab-26a3-3a03-379c-6ea3e74d37d6",
+   "type": "page"
+  },
+  {
+   "id": "d420ec32-97e0-75e3-be2a-0f863168f88c",
+   "title": "Parsons",
+   "pageId": "3ac49dbd-8261-c2ae-c055-4e56646efa31",
+   "type": "page"
+  },
+  {
+   "id": "22ab30ba-218f-7175-8554-87d72047cfe2",
+   "title": "Gradebooks",
+   "pageId": "54183a1d-3b09-0896-b676-e8dbbcb05b4b",
+   "type": "page"
+  }
+ ]
+}

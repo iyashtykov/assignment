@@ -1,0 +1,12 @@
+{
+    "Logo": true, // hides the Codio logo
+    "Codio": true, // hides the Codio menu dropdown
+    "Project": {
+         "Permissions": true // hides the Permissions option in the Project menu dropdown
+    },
+    "Help": true, // hides the Help menu dropdown
+    "Run": true, // hides the Run menu dropdown
+    "Preview": true, // hides the Preview menu dropdown
+    "Debugger": true, // hides the Debugger menu dropdown
+    "Status": true // hides the Status icon, user Avatar, user name and exit button
+}
