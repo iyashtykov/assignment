@@ -7,12 +7,15 @@
    "showName": true,
    "instructions": "*Instructions here*",
    "command": "python /usr/share/codio/assessments/assessments.py",
-   "codeEnvConfig": "{\"type\":\"javascript\",\"subtype\":\"jslint\",\"files\":[\"js_file_jslint_ok.js\"],\"partialPoints\":false,\"maxPoints\":100}",
-   "arePartialPointsAllowed": false,
+   "codeEnvConfig": "{\"type\":\"javascript\",\"subtype\":\"jslint\",\"files\":[\"js_file_jslint_ok.js\"],\"maxPoints\":100}",
    "timeoutSeconds": 300,
    "guidance": "**Rationale**",
+   "showGuidanceAfterResponseOption": {
+    "type": "Always"
+   },
+   "maxAttemptsCount": 0,
    "points": 100,
-   "oneTimeTest": false,
+   "arePartialPointsAllowed": false,
    "metadata": {
     "tags": [
      {
@@ -34,10 +37,7 @@
     "opened": []
    },
    "bloomsObjectiveLevel": "1",
-   "learningObjectives": "",
-   "showGuidanceAfterResponseOption": {
-    "type": "Always"
-   }
+   "learningObjectives": ""
   }
  },
  {
@@ -48,12 +48,15 @@
    "showName": true,
    "instructions": "*Instructions here*",
    "command": "python /usr/share/codio/assessments/assessments.py",
-   "codeEnvConfig": "{\"type\":\"javascript\",\"subtype\":\"jshint\",\"files\":[\"js_file_jshint_ok.js\"],\"partialPoints\":false,\"maxPoints\":100}",
-   "arePartialPointsAllowed": false,
+   "codeEnvConfig": "{\"type\":\"javascript\",\"subtype\":\"jshint\",\"files\":[\"js_file_jshint_ok.js\"],\"maxPoints\":100}",
    "timeoutSeconds": 300,
    "guidance": "**Rationale**",
+   "showGuidanceAfterResponseOption": {
+    "type": "Always"
+   },
+   "maxAttemptsCount": 0,
    "points": 100,
-   "oneTimeTest": false,
+   "arePartialPointsAllowed": false,
    "metadata": {
     "tags": [
      {
@@ -75,10 +78,7 @@
     "opened": []
    },
    "bloomsObjectiveLevel": "3",
-   "learningObjectives": "",
-   "showGuidanceAfterResponseOption": {
-    "type": "Never"
-   }
+   "learningObjectives": ""
   }
  },
  {
@@ -89,12 +89,15 @@
    "showName": true,
    "instructions": "*Instructions here*",
    "command": "python /usr/share/codio/assessments/assessments.py",
-   "codeEnvConfig": "{\"type\":\"python\",\"subtype\":\"unittest\",\"files\":[\"utest_calc_ok.py\",\"utest_calc_failed.py\",\"pythonfolder/utest_calc_ok.py\",\"pythonfolder/utest_calc_failed.py\"],\"partialPoints\":true,\"maxPoints\":100,\"executable\":\"python\",\"pythonwd\":\"\"}",
-   "arePartialPointsAllowed": true,
+   "codeEnvConfig": "{\"type\":\"python\",\"subtype\":\"unittest\",\"files\":[\"utest_calc_ok.py\",\"utest_calc_failed.py\",\"pythonfolder/utest_calc_ok.py\",\"pythonfolder/utest_calc_failed.py\"],\"maxPoints\":100,\"executable\":\"python\",\"pythonwd\":\"\",\"partialPoints\":true}",
    "timeoutSeconds": 300,
    "guidance": "**Rationale**",
+   "showGuidanceAfterResponseOption": {
+    "type": "Always"
+   },
+   "maxAttemptsCount": 0,
    "points": 100,
-   "oneTimeTest": false,
+   "arePartialPointsAllowed": true,
    "metadata": {
     "tags": [
      {
@@ -122,10 +125,7 @@
     "opened": []
    },
    "bloomsObjectiveLevel": "1",
-   "learningObjectives": "",
-   "showGuidanceAfterResponseOption": {
-    "type": "Never"
-   }
+   "learningObjectives": ""
   }
  },
  {
@@ -140,7 +140,7 @@
    "timeoutSeconds": 300,
    "guidance": "**Rationale**",
    "showGuidanceAfterResponseOption": {
-    "type": "Never"
+    "type": "Always"
    },
    "maxAttemptsCount": 0,
    "points": 100,
@@ -182,7 +182,7 @@
    "timeoutSeconds": 300,
    "guidance": "**Rationale**",
    "showGuidanceAfterResponseOption": {
-    "type": "Never"
+    "type": "Always"
    },
    "maxAttemptsCount": 0,
    "points": 100,
@@ -223,7 +223,7 @@
    "timeoutSeconds": 300,
    "guidance": "**Rationale**",
    "showGuidanceAfterResponseOption": {
-    "type": "Never"
+    "type": "Always"
    },
    "maxAttemptsCount": 0,
    "points": 100,
@@ -268,7 +268,7 @@
    "timeoutSeconds": 300,
    "guidance": "**Rationale**",
    "showGuidanceAfterResponseOption": {
-    "type": "Never"
+    "type": "Always"
    },
    "maxAttemptsCount": 0,
    "points": 100,
@@ -310,7 +310,7 @@
    "timeoutSeconds": 300,
    "guidance": "**Rationale**",
    "showGuidanceAfterResponseOption": {
-    "type": "Never"
+    "type": "Always"
    },
    "maxAttemptsCount": 0,
    "points": 100,
@@ -351,7 +351,7 @@
    "timeoutSeconds": 300,
    "guidance": "**Rationale**",
    "showGuidanceAfterResponseOption": {
-    "type": "Never"
+    "type": "Always"
    },
    "maxAttemptsCount": 0,
    "points": 100,
@@ -394,7 +394,7 @@
    "timeoutSeconds": 300,
    "guidance": "**Rationale**",
    "showGuidanceAfterResponseOption": {
-    "type": "Never"
+    "type": "Always"
    },
    "maxAttemptsCount": 0,
    "points": 100,
@@ -436,7 +436,7 @@
    "timeoutSeconds": 300,
    "guidance": "**Rationale**",
    "showGuidanceAfterResponseOption": {
-    "type": "Never"
+    "type": "Always"
    },
    "maxAttemptsCount": 0,
    "points": 100,
@@ -1721,11 +1721,14 @@
    "showName": true,
    "instructions": "*Instructions here*",
    "command": "python default_format_partial_v2.py",
-   "arePartialPointsAllowed": true,
    "timeoutSeconds": 40,
    "guidance": "**Rationale**",
+   "showGuidanceAfterResponseOption": {
+    "type": "Always"
+   },
+   "maxAttemptsCount": 0,
    "points": 100,
-   "oneTimeTest": false,
+   "arePartialPointsAllowed": true,
    "metadata": {
     "tags": [
      {
@@ -1736,19 +1739,10 @@
     "files": [
      "file.js"
     ],
-    "opened": [
-     {
-      "type": "file",
-      "panelNumber": 0,
-      "content": "file.js"
-     }
-    ]
+    "opened": []
    },
    "bloomsObjectiveLevel": "",
-   "learningObjectives": "",
-   "showGuidanceAfterResponseOption": {
-    "type": "Never"
-   }
+   "learningObjectives": ""
   }
  },
  {
@@ -1759,11 +1753,14 @@
    "showName": true,
    "instructions": "*Instructions here*",
    "command": "python html_partial_v2.py",
-   "arePartialPointsAllowed": true,
    "timeoutSeconds": 40,
    "guidance": "**Rationale**",
+   "showGuidanceAfterResponseOption": {
+    "type": "Always"
+   },
+   "maxAttemptsCount": 0,
    "points": 100,
-   "oneTimeTest": false,
+   "arePartialPointsAllowed": true,
    "metadata": {
     "tags": [
      {
@@ -1774,19 +1771,10 @@
     "files": [
      "file.js"
     ],
-    "opened": [
-     {
-      "type": "file",
-      "panelNumber": 0,
-      "content": "file.js"
-     }
-    ]
+    "opened": []
    },
    "bloomsObjectiveLevel": "",
-   "learningObjectives": "",
-   "showGuidanceAfterResponseOption": {
-    "type": "Never"
-   }
+   "learningObjectives": ""
   }
  },
  {
@@ -1797,11 +1785,14 @@
    "showName": true,
    "instructions": "*Instructions here*",
    "command": "python md_partial_v2.py",
-   "arePartialPointsAllowed": true,
    "timeoutSeconds": 40,
    "guidance": "**Rationale**",
+   "showGuidanceAfterResponseOption": {
+    "type": "Always"
+   },
+   "maxAttemptsCount": 0,
    "points": 100,
-   "oneTimeTest": false,
+   "arePartialPointsAllowed": true,
    "metadata": {
     "tags": [
      {
@@ -1812,19 +1803,10 @@
     "files": [
      "file.js"
     ],
-    "opened": [
-     {
-      "type": "file",
-      "panelNumber": 0,
-      "content": "file.js"
-     }
-    ]
+    "opened": []
    },
    "bloomsObjectiveLevel": "",
-   "learningObjectives": "",
-   "showGuidanceAfterResponseOption": {
-    "type": "Never"
-   }
+   "learningObjectives": ""
   }
  },
  {
@@ -1835,11 +1817,14 @@
    "showName": true,
    "instructions": "*Instructions here*",
    "command": "python txt_partial_v2.py",
-   "arePartialPointsAllowed": true,
    "timeoutSeconds": 40,
    "guidance": "**Rationale**",
+   "showGuidanceAfterResponseOption": {
+    "type": "Always"
+   },
+   "maxAttemptsCount": 0,
    "points": 100,
-   "oneTimeTest": false,
+   "arePartialPointsAllowed": true,
    "metadata": {
     "tags": [
      {
@@ -1850,19 +1835,10 @@
     "files": [
      "file.js"
     ],
-    "opened": [
-     {
-      "type": "file",
-      "panelNumber": 0,
-      "content": "file.js"
-     }
-    ]
+    "opened": []
    },
    "bloomsObjectiveLevel": "",
-   "learningObjectives": "",
-   "showGuidanceAfterResponseOption": {
-    "type": "Never"
-   }
+   "learningObjectives": ""
   }
  },
  {
