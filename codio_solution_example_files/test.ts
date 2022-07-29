@@ -1,8 +1,4 @@
 // CODIO SOLUTION BEGIN
-/* Game of Life
- * Implemented in TypeScript
- * To learn more about TypeScript, please visit http://www.typescriptlang.org/
- */
 
 namespace Conway {
 
@@ -68,18 +64,7 @@ namespace Conway {
 			return newCell;
 		}
 
-		public countNeighbors(cell : Cell) {
-			var neighbors = 0;
-			for(var row = -1; row <=1; row++) {
-				for(var col = -1; col <= 1; col++) {
-					if(row == 0 && col == 0) continue;
-					if(this.isAlive(cell.row + row, cell.col + col)) {
-						neighbors++;
-					}
-				}
-			}
-			return neighbors;
-		}
+	
 
 		public isAlive(row : number, col : number) {
 			if(row < 0 || col < 0 || row >= this.gridSize || col >= this.gridSize) return false;
@@ -108,17 +93,7 @@ namespace Conway {
 			this.context.fillRect(cell.row * this.cellSize, cell.col*this.cellSize, this.cellSize, this.cellSize);
 		}
 
-		public createDrawingContext() {
-			var canvas = <HTMLCanvasElement> document.getElementById('conway-canvas');
-			if(canvas == null) {
-					canvas = document.createElement('canvas');
-					canvas.id = 'conway-canvas';
-					canvas.width = this.canvasSize;
-					canvas.height = this.canvasSize;
-					document.body.appendChild(canvas);
-			}
-			return canvas.getContext('2d');
-		}
+		
 	}
 }
 

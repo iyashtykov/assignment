@@ -9,7 +9,7 @@ let print_point pt =
    print_string "] ";; 
 
 let rec poligon shape n =                        
-   print_string "вершина №"; 
+  
    print_int n; 
    print_string " : "; 
    Format.print_flush(); 
@@ -20,29 +20,14 @@ let rec poligon shape n =
          let lst = pt :: shape in 
          poligon lst ( n + 1 ); 
       with float_of_string ->                    
-         print_string "ошибка ввода!\n"; 
+         
          poligon shape n; 
    with End_of_file ->                          
       shape;; 
  
-let rec show shape =                            
-   match shape with 
-   | [] -> 
-     print_newline(); 
-   | hd :: tl -> 
-     print_point hd; 
-     show tl;; 
+
  
-let perimeter shape = 
-   let dist p1 p2 = norm( sub p1 p2 ) in        (* расстояние между 2-мя точками*) 
-   let rec add_line lst sum = 
-      if List.tl( lst ) = [] then 
-         dist (List.hd lst) (List.hd shape)     (* последняя точка *) 
-      else 
-         dist (List.hd lst) (List.hd( List.tl lst )) +. 
-         add_line (List.tl lst ) sum            (* промежуточные точки *) 
-   in                                           (* end add_line *) 
-   add_line shape 0.0;;                         (* накапливающая сумма *) 
+
  
 let square shape = 
    let triang p1 p2 = 
@@ -59,23 +44,7 @@ let square shape =
    in                                           (* end add_squa *) 
    add_squa (List.tl shape) 0.0;; 
  
-let rec next() = 
-   print_string "координаты вершин в формате: X Y (^D конец ввода)\n"; 
-   let shape = poligon [] 1 in 
-   begin 
-      print_string "\rвершин "; 
-      print_int( List.length shape ); 
-      print_string " : "; 
-      show shape ; 
-      print_string "периметр = "; 
-      print_float( perimeter shape ); 
-      print_newline(); 
-      print_string "площадь = "; 
-      print_float( square shape ); 
-      print_newline(); 
-      print_string "---------------------------------\n"; 
-      next();              (* рекурсивно организованный бесконечный цикл *) 
-   end;; 
+
  
 next();;
 (* CODIO SOLUTION END *)

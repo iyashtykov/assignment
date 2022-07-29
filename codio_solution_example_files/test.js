@@ -1,12 +1,4 @@
 // CODIO SOLUTION BEGIN
-/*
-  © Microsoft. All rights reserved.
-
-  This library is supported for use in Windows Tailored Apps only.
-
-  Build: 6.2.8100.0 
-  Version: 0.5 
-*/
 
 (function (global, undefined) {
 	"use strict";

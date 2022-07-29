@@ -9,13 +9,6 @@ CREATE TABLE dbo.EmployeePhoto
 
 GO
 
-/*
-text_of_comment
-/* nested comment */
-*/
-
--- line comment
-
 CREATE NONCLUSTERED INDEX IX_WorkOrder_ProductID
     ON Production.WorkOrder(ProductID)
     WITH (FILLFACTOR = 80,

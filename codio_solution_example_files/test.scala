@@ -31,18 +31,6 @@ object sort {
       if (j < r) sort1(i, r)
     }
 
-    if (a.length > 0)
-      sort1(0, a.length - 1)
-  }
-
-  def println(ar: Array[Int]) {
-    def print1 = {
-      def iter(i: Int): String =
-        ar(i) + (if (i < ar.length-1) "," + iter(i+1) else "")
-      if (ar.length == 0) "" else iter(0)
-    }
-    Console.println("[" + print1 + "]")
-  }
 
   def main(args: Array[String]) {
     val ar = Array(6, 2, 8, 5, 1)

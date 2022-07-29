@@ -473,11 +473,14 @@
    "showName": true,
    "instructions": "Construct a program by drag&amp;dropping and reordering lines from the\n                        left to the right.\n                        The constructed program should draw a triangle like shown below.",
    "initial": "REPEAT 3 TIMES\n  forward(100)\n  left(120)\nENDREPEAT\n            ",
-   "options": "{\n               \n              \"max_wrong_lines\": 1,\n              \"turtleModelCode\": \"modelTurtle.forward(100)\\nmodelTurtle.left(120)\\nmodelTurtle.forward(100)\\nmodelTurtle.left(120)\\nmodelTurtle.forward(100)\\nmodelTurtle.left(120)\",\n              \"executable_code\": \"for i in range(0,3):\\nmyTurtle.forward(100)\\nmyTurtle.left(120)\\npass\",\n              \"programmingLang\": \"pseudo\"\n            }",
+   "options": "{\"max_wrong_lines\":1,\"turtleModelCode\":\"modelTurtle.forward(100)\\nmodelTurtle.left(120)\\nmodelTurtle.forward(100)\\nmodelTurtle.left(120)\\nmodelTurtle.forward(100)\\nmodelTurtle.left(120)\",\"executable_code\":\"for i in range(0,3):\\nmyTurtle.forward(100)\\nmyTurtle.left(120)\\npass\",\"programmingLang\":\"pseudo\"}",
    "grader": "5",
    "guidance": "**Rationale**",
+   "showGuidanceAfterResponseOption": {
+    "type": "Always"
+   },
+   "maxAttemptsCount": 0,
    "points": 100,
-   "oneTimeTest": false,
    "metadata": {
     "tags": [
      {
@@ -497,10 +500,7 @@
     "opened": []
    },
    "bloomsObjectiveLevel": "5",
-   "learningObjectives": "",
-   "showGuidanceAfterResponseOption": {
-    "type": "Never"
-   }
+   "learningObjectives": ""
   }
  },
  {
@@ -511,11 +511,14 @@
    "showName": true,
    "instructions": "Construct code by reordering and indenting the lines.",
    "initial": "for (int i=0;i<3;i++) {\nSystem.out.print(\\\"I \\\");\nSystem.out.print(\\\"am \\\");\nSystem.out.print(\\\"a Java program \\\");\n}",
-   "options": "{\n                           \n                            \"max_wrong_lines\": 1,\n                            \"vartests\": [{\"initcode\": \"output = ''\", \"code\": \"\", \"message\": \"Testing...\", \"variables\": {\"output\": \"I am a Java program I am a Java program I am a Java program \"}}\n                                ],\n                            \"executable_code\": \"for x in range(3):\\noutput += 'I '\\noutput += 'am '\\noutput += 'a Java program '\\npass\\n\",\n                            \"programmingLang\": \"java\"\n                        }",
+   "options": "{\"max_wrong_lines\":1,\"vartests\":[{\"initcode\":\"output = ''\",\"code\":\"\",\"message\":\"Testing...\",\"variables\":{\"output\":\"I am a Java program I am a Java program I am a Java program \"}}],\"executable_code\":\"for x in range(3):\\noutput += 'I '\\noutput += 'am '\\noutput += 'a Java program '\\npass\\n\",\"programmingLang\":\"java\"}",
    "grader": "4",
    "guidance": "**Rationale**",
+   "showGuidanceAfterResponseOption": {
+    "type": "Always"
+   },
+   "maxAttemptsCount": 0,
    "points": 100,
-   "oneTimeTest": false,
    "metadata": {
     "tags": [
      {
@@ -535,10 +538,7 @@
     "opened": []
    },
    "bloomsObjectiveLevel": "4",
-   "learningObjectives": "",
-   "showGuidanceAfterResponseOption": {
-    "type": "Never"
-   }
+   "learningObjectives": ""
   }
  },
  {
@@ -549,11 +549,14 @@
    "showName": true,
    "instructions": "Construct a function which returns the largest of the three given arguments.\n                  You can change the value of a toggleable element (<span class=\"jsparson-toggle\"></span>) by clicking.",
    "initial": "def find_largest(a, b, c):\nif <span class='jsparson-toggle' data-type='abc'></span> > <span class='jsparson-toggle' data-type='abc'></span>:\nif <span class='jsparson-toggle' data-type='abc'></span> > <span class='jsparson-toggle' data-type='abc'></span>:\nreturn <span class='jsparson-toggle' data-type='abc'></span>\nelse:\nreturn <span class='jsparson-toggle' data-type='abc'></span>\nelif <span class='jsparson-toggle' data-type='abc'></span> > <span class='jsparson-toggle' data-type='abc'></span>:\nreturn <span class='jsparson-toggle' data-type='abc'></span>\nelse:\nreturn <span class='jsparson-toggle' data-type='abc'></span>\n            ",
-   "options": "{\n                            \"sortableId\": \"sortable\",                        \n                                    \"unittests\": \"import unittestparson\\nclass myTests(unittestparson.unittest):\\n  def testOne(self):\\n    self.assertEqual(find_largest(0, 2, 4),4,\\\"Calling function <code>find_largest(0, 2, 4)</code>.\\\")\\n    self.assertEqual(find_largest(4, 2, 4),4,\\\"Calling function <code>find_largest(4, 2, 4)</code>.\\\")\\n    self.assertEqual(find_largest(-5, -1, -4),-1,\\\"Calling function <code>find_largest(-5, -1, -4)</code>.\\\")\\n    self.assertEqual(find_largest(7, 2, 4),7,\\\"Calling function <code>find_largest(7, 2, 4)</code>.\\\")\\n_test_result = myTests().main()\",\n                                    \"toggleTypeHandlers\": {\"abc\": [\"a\", \"b\", \"c\"]}\n                        }",
+   "options": "{\"sortableId\":\"sortable\",\"max_wrong_lines\":10,\"exec_limit\":2500,\"can_indent\":true,\"x_indent\":50,\"lang\":\"en\",\"toggleTypeHandlers\":{\"abc\":[\"a\",\"b\",\"c\"]},\"show_feedback\":true,\"unittests\":\"import unittestparson\\nclass myTests(unittestparson.unittest):\\n  def testOne(self):\\n    self.assertEqual(find_largest(0, 2, 4),4,\\\"Calling function <code>find_largest(0, 2, 4)</code>.\\\")\\n    self.assertEqual(find_largest(4, 2, 4),4,\\\"Calling function <code>find_largest(4, 2, 4)</code>.\\\")\\n    self.assertEqual(find_largest(-5, -1, -4),-1,\\\"Calling function <code>find_largest(-5, -1, -4)</code>.\\\")\\n    self.assertEqual(find_largest(7, 2, 4),7,\\\"Calling function <code>find_largest(7, 2, 4)</code>.\\\")\\n_test_result = myTests().main()\"}",
    "grader": "3",
    "guidance": "**Rationale**",
+   "showGuidanceAfterResponseOption": {
+    "type": "Always"
+   },
+   "maxAttemptsCount": 0,
    "points": 100,
-   "oneTimeTest": false,
    "metadata": {
     "tags": [
      {
@@ -573,10 +576,7 @@
     "opened": []
    },
    "bloomsObjectiveLevel": "3",
-   "learningObjectives": "",
-   "showGuidanceAfterResponseOption": {
-    "type": "Never"
-   }
+   "learningObjectives": ""
   }
  },
  {
@@ -587,11 +587,14 @@
    "showName": true,
    "instructions": "Construct a program that swaps the values of variables <code>x</code> and <code>y</code> using the\n              helper variable <code>tmp</code>. You can change the names of the variables (<span class=\"jsparson-toggle\"></span>)\n              by clicking them.",
    "initial": "$$toggle::x::y::tmp$$ = $$toggle::x::y::tmp$$\n$$toggle::x::y::tmp$$ = $$toggle::x::y::tmp$$\n$$toggle::x::y::tmp$$ = $$toggle::x::y::tmp$$\n            ",
-   "options": "{\n                      \n                  \"vartests\": [{\"initcode\": \"x = 0\\ny=2\", \"code\": \"\", \"message\": \"Testing with initial variable values x = 0 and y = 2\", \"variables\": {\"x\": 2}},\n                               {\"initcode\": \"x = 3\\ny=4\\n\", \"code\": \"\", \"message\": \"Testing with initial variable values x = 3 and y = 4\", \"variables\": {\"x\": 4, \"y\": 3}}],\n                  \"lang\": \"en\"\n                }",
+   "options": "{\"vartests\":[{\"initcode\":\"x = 0\\ny=2\",\"code\":\"\",\"message\":\"Testing with initial variable values x = 0 and y = 2\",\"variables\":{\"x\":2}},{\"initcode\":\"x = 3\\ny=4\\n\",\"code\":\"\",\"message\":\"Testing with initial variable values x = 3 and y = 4\",\"variables\":{\"x\":4,\"y\":3}}],\"lang\":\"en\"}",
    "grader": "2",
    "guidance": "**Rationale**",
+   "showGuidanceAfterResponseOption": {
+    "type": "Always"
+   },
+   "maxAttemptsCount": 0,
    "points": 100,
-   "oneTimeTest": false,
    "metadata": {
     "tags": [
      {
@@ -611,10 +614,7 @@
     "opened": []
    },
    "bloomsObjectiveLevel": "2",
-   "learningObjectives": "",
-   "showGuidanceAfterResponseOption": {
-    "type": "Never"
-   }
+   "learningObjectives": ""
   }
  },
  {
@@ -625,11 +625,14 @@
    "showName": true,
    "instructions": "<p>Construct a function by drag&amp;dropping and reordering lines from the\n                        left to the right.\n                        The constructed function should return True if the parameter is True and\n                        return False otherwise.</p>\n                    <p><strong>Note:</strong> The correct solution is obviously a dumb way to do\n                        it. This exercise is merely trying to give an example of a Parson's\n                        puzzle with js-parsons, not teach you Python :)</p>",
    "initial": "def is_true(boolean_value):\n  if boolean_value:\n    return True\n  return False\n  return true #distractor\n            ",
-   "options": "{\n              \n              \"trashId\": \"sortableTrash\",\n              \"max_wrong_lines\": 1\n            }",
+   "options": "{\"trashId\":\"sortableTrash\",\"max_wrong_lines\":1}",
    "grader": "1",
    "guidance": "**Rationale**",
+   "showGuidanceAfterResponseOption": {
+    "type": "Always"
+   },
+   "maxAttemptsCount": 0,
    "points": 100,
-   "oneTimeTest": false,
    "metadata": {
     "tags": [
      {
@@ -649,10 +652,7 @@
     "opened": []
    },
    "bloomsObjectiveLevel": "1",
-   "learningObjectives": "",
-   "showGuidanceAfterResponseOption": {
-    "type": "Never"
-   }
+   "learningObjectives": ""
   }
  },
  {
@@ -733,8 +733,11 @@
    "command": "python freetextauto_partial_v1.py",
    "timeoutSeconds": 40,
    "guidance": "**Rationale**",
+   "showGuidanceAfterResponseOption": {
+    "type": "Always"
+   },
+   "maxAttemptsCount": 0,
    "arePartialPointsAllowed": true,
-   "oneTimeTest": false,
    "previewType": "NONE",
    "points": 100,
    "metadata": {
@@ -756,19 +759,10 @@
      "file.js",
      "partial.sh"
     ],
-    "opened": [
-     {
-      "type": "file",
-      "panelNumber": 0,
-      "content": "file.js"
-     }
-    ]
+    "opened": []
    },
    "bloomsObjectiveLevel": "6",
-   "learningObjectives": "LEARNING OBJECTIVES",
-   "showGuidanceAfterResponseOption": {
-    "type": "Never"
-   }
+   "learningObjectives": "LEARNING OBJECTIVES"
   }
  },
  {
@@ -781,9 +775,12 @@
    "command": "python freetextauto_simple.py",
    "timeoutSeconds": 40,
    "guidance": "**Rationale**",
+   "showGuidanceAfterResponseOption": {
+    "type": "Always"
+   },
+   "maxAttemptsCount": 0,
    "arePartialPointsAllowed": false,
-   "oneTimeTest": false,
-   "previewType": "NONE",
+   "previewType": "RAW",
    "points": 100,
    "metadata": {
     "tags": [
@@ -796,19 +793,10 @@
      "file.js",
      "run.sh"
     ],
-    "opened": [
-     {
-      "type": "file",
-      "panelNumber": 0,
-      "content": "file.js"
-     }
-    ]
+    "opened": []
    },
    "bloomsObjectiveLevel": "6",
-   "learningObjectives": "LEARNING OBJECTIVES",
-   "showGuidanceAfterResponseOption": {
-    "type": "Never"
-   }
+   "learningObjectives": "LEARNING OBJECTIVES"
   }
  },
  {
@@ -1016,17 +1004,21 @@
    "instructions": "*Instructions here*",
    "command": "python argumentscount.py",
    "preExecuteCommand": "sleep 1",
-   "guidance": "**Rationale**",
-   "points": 100,
-   "oneTimeTest": true,
    "options": {
+    "timeout": 30,
     "ignoreCase": false,
     "ignoreWhitespaces": true,
     "ignoreNewline": true,
-    "matchSubstring": false,
-    "timeout": 30
+    "matchSubstring": false
    },
-   "showExpectedAnswer": true,
+   "guidance": "**Rationale**",
+   "showGuidanceAfterResponseOption": {
+    "type": "Always"
+   },
+   "maxAttemptsCount": 1,
+   "points": 100,
+   "showExpectedAnswer": false,
+   "arePartialPointsAllowed": false,
    "sequence": [
     {
      "arguments": "one two three four",
@@ -1062,19 +1054,10 @@
      "file.js",
      "argumentscount.py"
     ],
-    "opened": [
-     {
-      "type": "file",
-      "panelNumber": 0,
-      "content": "file.js"
-     }
-    ]
+    "opened": []
    },
    "bloomsObjectiveLevel": "5",
-   "learningObjectives": "learning",
-   "showGuidanceAfterResponseOption": {
-    "type": "Always"
-   }
+   "learningObjectives": "learning"
   }
  },
  {
@@ -1086,17 +1069,21 @@
    "instructions": "*Instructions here*",
    "command": "python inputcommands.py",
    "preExecuteCommand": "sleep 1",
-   "guidance": "**Rationale**",
-   "points": 100,
-   "oneTimeTest": false,
    "options": {
+    "timeout": 30,
     "ignoreCase": false,
     "ignoreWhitespaces": true,
     "ignoreNewline": true,
-    "matchSubstring": false,
-    "timeout": 30
+    "matchSubstring": false
    },
-   "showExpectedAnswer": true,
+   "guidance": "**Rationale**",
+   "showGuidanceAfterResponseOption": {
+    "type": "Always"
+   },
+   "maxAttemptsCount": 0,
+   "points": 100,
+   "showExpectedAnswer": false,
+   "arePartialPointsAllowed": false,
    "sequence": [
     {
      "arguments": "",
@@ -1132,19 +1119,10 @@
      "file.js",
      "inputcommands.py"
     ],
-    "opened": [
-     {
-      "type": "file",
-      "panelNumber": 0,
-      "content": "file.js"
-     }
-    ]
+    "opened": []
    },
    "bloomsObjectiveLevel": "2",
-   "learningObjectives": "learning",
-   "showGuidanceAfterResponseOption": {
-    "type": "Always"
-   }
+   "learningObjectives": "learning"
   }
  },
  {
@@ -1325,32 +1303,32 @@
     {
      "_id": "30a1ed6e-98b9-3fd0-3eb5-245cfde23158",
      "correct": true,
-     "answer": "correct answer"
+     "answer": "**correct answer**"
     },
     {
      "_id": "7db440f4-42da-b699-b718-7a9bfa684605",
      "correct": false,
-     "answer": "incorrect answer 1"
+     "answer": "**incorrect answer 1**"
     },
     {
      "_id": "4f993dd8-f738-40e4-9355-f54443886e59",
      "correct": false,
-     "answer": "incorrect answer 2"
+     "answer": "**incorrect answer 2**"
     },
     {
      "_id": "aa3b440b-2a35-cc19-2b4a-84639d8ac788",
      "correct": false,
-     "answer": "incorrect answer 3"
+     "answer": "**incorrect answer 3**"
     },
     {
      "_id": "f4671d97-118e-2f4e-9b00-4687e41e666e",
      "correct": false,
-     "answer": "incorrect answer 4"
+     "answer": "**incorrect answer 4**"
     }
    ],
    "guidance": "**Rationale**",
    "showGuidanceAfterResponseOption": {
-    "type": "Never"
+    "type": "Always"
    },
    "maxAttemptsCount": 0,
    "showExpectedAnswer": true,
@@ -1394,35 +1372,35 @@
     {
      "_id": "6a9f87b4-a555-a8fb-772e-58b3801bf0f3",
      "correct": true,
-     "answer": "correct answer 1"
+     "answer": "**correct answer 1**"
     },
     {
      "_id": "a84e6222-046c-5a4a-3210-df40ba898684",
      "correct": true,
-     "answer": "correct answer 2"
+     "answer": "**correct answer 2**"
     },
     {
      "_id": "c6344f0b-6c63-8fe7-00b2-3e120226f67c",
      "correct": false,
-     "answer": "incorrect answer 1"
+     "answer": "**incorrect answer 1**"
     },
     {
      "_id": "bdadeb57-bfd6-d33c-3e77-26c355ee250b",
      "correct": false,
-     "answer": "incorrect answer 2"
+     "answer": "**incorrect answer 2**"
     },
     {
      "_id": "1595a358-f87b-4156-a94b-ff4c49ce3255",
      "correct": false,
-     "answer": "incorrect answer 3"
+     "answer": "**incorrect answer 3**"
     }
    ],
    "guidance": "**Rationale**",
    "showGuidanceAfterResponseOption": {
-    "type": "Never"
+    "type": "Always"
    },
    "maxAttemptsCount": 0,
-   "showExpectedAnswer": true,
+   "showExpectedAnswer": false,
    "points": 100,
    "incorrectPoints": 0,
    "arePartialPointsAllowed": false,
@@ -1542,7 +1520,7 @@
    "distractors": "",
    "guidance": "**Rationale**",
    "showGuidanceAfterResponseOption": {
-    "type": "Never"
+    "type": "Always"
    },
    "maxAttemptsCount": 0,
    "showExpectedAnswer": true,
@@ -1606,7 +1584,7 @@
    "distractors": "",
    "guidance": "**Rationale**",
    "showGuidanceAfterResponseOption": {
-    "type": "Never"
+    "type": "Always"
    },
    "maxAttemptsCount": 0,
    "showExpectedAnswer": true,
@@ -1669,7 +1647,7 @@
    "distractors": "",
    "guidance": "**Rationale**",
    "showGuidanceAfterResponseOption": {
-    "type": "Never"
+    "type": "Always"
    },
    "maxAttemptsCount": 0,
    "showExpectedAnswer": true,
@@ -1897,9 +1875,12 @@
    "command": "python freetextauto_partial_v2.py",
    "timeoutSeconds": 40,
    "guidance": "**Rationale**",
+   "showGuidanceAfterResponseOption": {
+    "type": "Always"
+   },
+   "maxAttemptsCount": 0,
    "arePartialPointsAllowed": true,
-   "oneTimeTest": false,
-   "previewType": "NONE",
+   "previewType": "MARKDOWN",
    "points": 100,
    "metadata": {
     "tags": [
@@ -1911,19 +1892,10 @@
     "files": [
      "file.js"
     ],
-    "opened": [
-     {
-      "type": "file",
-      "panelNumber": 0,
-      "content": "file.js"
-     }
-    ]
+    "opened": []
    },
    "bloomsObjectiveLevel": "",
-   "learningObjectives": "",
-   "showGuidanceAfterResponseOption": {
-    "type": "Never"
-   }
+   "learningObjectives": ""
   }
  },
  {
@@ -1935,18 +1907,21 @@
    "instructions": "*Instructions here*",
    "command": "python standard_partial_empty.py",
    "preExecuteCommand": "",
-   "arePartialPointsAllowed": true,
-   "guidance": "**Rationale**",
-   "points": 100,
-   "oneTimeTest": false,
    "options": {
+    "timeout": 30,
     "ignoreCase": false,
     "ignoreWhitespaces": true,
     "ignoreNewline": true,
-    "matchSubstring": false,
-    "timeout": 30
+    "matchSubstring": false
    },
-   "showExpectedAnswer": true,
+   "guidance": "**Rationale**",
+   "showGuidanceAfterResponseOption": {
+    "type": "Always"
+   },
+   "maxAttemptsCount": 0,
+   "points": 100,
+   "showExpectedAnswer": false,
+   "arePartialPointsAllowed": true,
    "sequence": [
     {
      "arguments": "",
@@ -1995,10 +1970,7 @@
     "opened": []
    },
    "bloomsObjectiveLevel": "",
-   "learningObjectives": "",
-   "showGuidanceAfterResponseOption": {
-    "type": "Always"
-   }
+   "learningObjectives": ""
   }
  },
  {
@@ -2010,18 +1982,21 @@
    "instructions": "*Instructions here*",
    "command": "python standard_partial_allsymbols.py",
    "preExecuteCommand": "",
-   "arePartialPointsAllowed": true,
-   "guidance": "**Rationale**",
-   "points": 100,
-   "oneTimeTest": false,
    "options": {
+    "timeout": 30,
     "ignoreCase": true,
     "ignoreWhitespaces": true,
     "ignoreNewline": true,
-    "matchSubstring": false,
-    "timeout": 30
+    "matchSubstring": false
    },
-   "showExpectedAnswer": true,
+   "guidance": "**Rationale**",
+   "showGuidanceAfterResponseOption": {
+    "type": "Always"
+   },
+   "maxAttemptsCount": 0,
+   "points": 100,
+   "showExpectedAnswer": false,
+   "arePartialPointsAllowed": true,
    "sequence": [
     {
      "arguments": "",
@@ -2084,10 +2059,7 @@
     "opened": []
    },
    "bloomsObjectiveLevel": "",
-   "learningObjectives": "",
-   "showGuidanceAfterResponseOption": {
-    "type": "Always"
-   }
+   "learningObjectives": ""
   }
  },
  {
@@ -2341,32 +2313,32 @@
     {
      "_id": "db0ef4eb-14d0-e162-7a73-e1a10c516099",
      "correct": true,
-     "answer": "correct answer 1"
+     "answer": "**correct answer 1**"
     },
     {
      "_id": "79a9825b-c33e-9984-f395-c0e212b8f8b6",
      "correct": false,
-     "answer": "incorrect answer 1"
+     "answer": "**incorrect answer 1**"
     },
     {
      "_id": "0b33359f-b236-a329-3a0a-5c5480d56127",
      "correct": true,
-     "answer": "correct answer 2"
+     "answer": "**correct answer 2**"
     },
     {
      "_id": "434de086-f069-d818-a79c-6145c5a1f94a",
      "correct": false,
-     "answer": "incorrect answer 2"
+     "answer": "**incorrect answer 2**"
     },
     {
      "_id": "c3219a8d-7e3d-a5b9-c638-aa159d9bf273",
      "correct": false,
-     "answer": "incorrect answer 3"
+     "answer": "**incorrect answer 3**"
     }
    ],
    "guidance": "**Rationale**",
    "showGuidanceAfterResponseOption": {
-    "type": "Never"
+    "type": "Always"
    },
    "maxAttemptsCount": 0,
    "showExpectedAnswer": true,
@@ -2459,7 +2431,7 @@
     "type": "Always"
    },
    "maxAttemptsCount": 0,
-   "showExpectedAnswer": true,
+   "showExpectedAnswer": false,
    "points": 100,
    "arePartialPointsAllowed": true,
    "metadata": {
@@ -2508,7 +2480,7 @@
     "type": "Always"
    },
    "maxAttemptsCount": 0,
-   "showExpectedAnswer": true,
+   "showExpectedAnswer": false,
    "points": 100,
    "arePartialPointsAllowed": false,
    "metadata": {

@@ -1,7 +1,4 @@
 # CODIO SOLUTION BEGIN
-#-------------------------------------------------------------------------
-# Copyright (c) Microsoft. All rights reserved.
-#--------------------------------------------------------------------------
 
 module Azure
   module Blob
