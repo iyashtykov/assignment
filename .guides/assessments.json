@@ -807,11 +807,14 @@
    "showName": true,
    "instructions": "*Instructions here*",
    "command": "python advanced_partial_v1.py",
-   "arePartialPointsAllowed": true,
    "timeoutSeconds": 40,
    "guidance": "**Rationale**",
+   "showGuidanceAfterResponseOption": {
+    "type": "Always"
+   },
+   "maxAttemptsCount": 0,
    "points": 100,
-   "oneTimeTest": false,
+   "arePartialPointsAllowed": true,
    "metadata": {
     "tags": [
      {
@@ -831,19 +834,10 @@
      "file.js",
      "advanced.py"
     ],
-    "opened": [
-     {
-      "type": "file",
-      "panelNumber": 0,
-      "content": "file.js"
-     }
-    ]
+    "opened": []
    },
    "bloomsObjectiveLevel": "3",
-   "learningObjectives": "",
-   "showGuidanceAfterResponseOption": {
-    "type": "Always"
-   }
+   "learningObjectives": ""
   }
  },
  {
@@ -927,17 +921,21 @@
    "instructions": "*Instructions here*",
    "command": "python allsymbols.py",
    "preExecuteCommand": "sleep 1",
-   "guidance": "**Rationale**",
-   "points": 100,
-   "oneTimeTest": false,
    "options": {
+    "timeout": 30,
     "ignoreCase": true,
     "ignoreWhitespaces": true,
     "ignoreNewline": true,
-    "matchSubstring": false,
-    "timeout": 30
+    "matchSubstring": false
    },
+   "guidance": "**Rationale**",
+   "showGuidanceAfterResponseOption": {
+    "type": "Always"
+   },
+   "maxAttemptsCount": 0,
+   "points": 100,
    "showExpectedAnswer": true,
+   "arePartialPointsAllowed": false,
    "sequence": [
     {
      "arguments": "",
@@ -980,19 +978,10 @@
      "file.js",
      "allsymbols.py"
     ],
-    "opened": [
-     {
-      "type": "file",
-      "panelNumber": 0,
-      "content": "file.js"
-     }
-    ]
+    "opened": []
    },
    "bloomsObjectiveLevel": "4",
-   "learningObjectives": "learning",
-   "showGuidanceAfterResponseOption": {
-    "type": "Always"
-   }
+   "learningObjectives": "learning"
   }
  },
  {
@@ -1015,7 +1004,7 @@
    "showGuidanceAfterResponseOption": {
     "type": "Always"
    },
-   "maxAttemptsCount": 1,
+   "maxAttemptsCount": 0,
    "points": 100,
    "showExpectedAnswer": false,
    "arePartialPointsAllowed": false,
@@ -1133,11 +1122,14 @@
    "showName": true,
    "instructions": "*Instructions here*",
    "command": "python advanced_simple.py",
-   "arePartialPointsAllowed": false,
    "timeoutSeconds": 19,
    "guidance": "**Rationale**",
+   "showGuidanceAfterResponseOption": {
+    "type": "Always"
+   },
+   "maxAttemptsCount": 0,
    "points": 100,
-   "oneTimeTest": false,
+   "arePartialPointsAllowed": false,
    "metadata": {
     "tags": [
      {
@@ -1157,19 +1149,10 @@
      "file.js",
      "empty.py"
     ],
-    "opened": [
-     {
-      "type": "file",
-      "panelNumber": 0,
-      "content": "file.js"
-     }
-    ]
+    "opened": []
    },
    "bloomsObjectiveLevel": "2",
-   "learningObjectives": "learning",
-   "showGuidanceAfterResponseOption": {
-    "type": "Always"
-   }
+   "learningObjectives": "learning"
   }
  },
  {
@@ -2047,18 +2030,21 @@
    "instructions": "*Instructions here*",
    "command": "python standard_partial_argumentscount.py",
    "preExecuteCommand": "",
-   "arePartialPointsAllowed": true,
-   "guidance": "**Rationale**",
-   "points": 100,
-   "oneTimeTest": false,
    "options": {
+    "timeout": 30,
     "ignoreCase": false,
     "ignoreWhitespaces": true,
     "ignoreNewline": true,
-    "matchSubstring": false,
-    "timeout": 30
+    "matchSubstring": false
    },
+   "guidance": "**Rationale**",
+   "showGuidanceAfterResponseOption": {
+    "type": "Always"
+   },
+   "maxAttemptsCount": 0,
+   "points": 100,
    "showExpectedAnswer": true,
+   "arePartialPointsAllowed": true,
    "sequence": [
     {
      "arguments": "one two three four",
@@ -2107,10 +2093,7 @@
     "opened": []
    },
    "bloomsObjectiveLevel": "",
-   "learningObjectives": "",
-   "showGuidanceAfterResponseOption": {
-    "type": "Always"
-   }
+   "learningObjectives": ""
   }
  },
  {
@@ -2122,18 +2105,21 @@
    "instructions": "*Instructions here*",
    "command": "python standard_partial_inputcommands.py",
    "preExecuteCommand": "",
-   "arePartialPointsAllowed": true,
-   "guidance": "**Rationale**",
-   "points": 100,
-   "oneTimeTest": false,
    "options": {
+    "timeout": 30,
     "ignoreCase": false,
     "ignoreWhitespaces": true,
     "ignoreNewline": true,
-    "matchSubstring": false,
-    "timeout": 30
+    "matchSubstring": false
    },
+   "guidance": "**Rationale**",
+   "showGuidanceAfterResponseOption": {
+    "type": "Always"
+   },
+   "maxAttemptsCount": 0,
+   "points": 100,
    "showExpectedAnswer": true,
+   "arePartialPointsAllowed": true,
    "sequence": [
     {
      "arguments": "",
@@ -2182,10 +2168,7 @@
     "opened": []
    },
    "bloomsObjectiveLevel": "",
-   "learningObjectives": "",
-   "showGuidanceAfterResponseOption": {
-    "type": "Always"
-   }
+   "learningObjectives": ""
   }
  },
  {
