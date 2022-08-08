@@ -37,7 +37,7 @@
     "opened": []
    },
    "bloomsObjectiveLevel": "1",
-   "learningObjectives": ""
+   "learningObjectives": "learning"
   }
  },
  {
@@ -78,7 +78,7 @@
     "opened": []
    },
    "bloomsObjectiveLevel": "3",
-   "learningObjectives": ""
+   "learningObjectives": "learning"
   }
  },
  {
@@ -125,7 +125,7 @@
     "opened": []
    },
    "bloomsObjectiveLevel": "1",
-   "learningObjectives": ""
+   "learningObjectives": "learning"
   }
  },
  {
@@ -167,7 +167,7 @@
     "opened": []
    },
    "bloomsObjectiveLevel": "2",
-   "learningObjectives": ""
+   "learningObjectives": "learning"
   }
  },
  {
@@ -208,7 +208,7 @@
     "opened": []
    },
    "bloomsObjectiveLevel": "3",
-   "learningObjectives": ""
+   "learningObjectives": "learning"
   }
  },
  {
@@ -253,7 +253,7 @@
     "opened": []
    },
    "bloomsObjectiveLevel": "3",
-   "learningObjectives": ""
+   "learningObjectives": "learning"
   }
  },
  {
@@ -295,7 +295,7 @@
     "opened": []
    },
    "bloomsObjectiveLevel": "3",
-   "learningObjectives": ""
+   "learningObjectives": "learning"
   }
  },
  {
@@ -336,7 +336,7 @@
     "opened": []
    },
    "bloomsObjectiveLevel": "4",
-   "learningObjectives": ""
+   "learningObjectives": "learning"
   }
  },
  {
@@ -379,7 +379,7 @@
     "opened": []
    },
    "bloomsObjectiveLevel": "3",
-   "learningObjectives": ""
+   "learningObjectives": "learning"
   }
  },
  {
@@ -421,7 +421,7 @@
     "opened": []
    },
    "bloomsObjectiveLevel": "3",
-   "learningObjectives": ""
+   "learningObjectives": "learning"
   }
  },
  {
@@ -462,7 +462,7 @@
     "opened": []
    },
    "bloomsObjectiveLevel": "4",
-   "learningObjectives": ""
+   "learningObjectives": "learning"
   }
  },
  {
@@ -500,7 +500,7 @@
     "opened": []
    },
    "bloomsObjectiveLevel": "5",
-   "learningObjectives": ""
+   "learningObjectives": "learning"
   }
  },
  {
@@ -538,7 +538,7 @@
     "opened": []
    },
    "bloomsObjectiveLevel": "4",
-   "learningObjectives": ""
+   "learningObjectives": "learning"
   }
  },
  {
@@ -576,7 +576,7 @@
     "opened": []
    },
    "bloomsObjectiveLevel": "3",
-   "learningObjectives": ""
+   "learningObjectives": "learning"
   }
  },
  {
@@ -614,7 +614,7 @@
     "opened": []
    },
    "bloomsObjectiveLevel": "2",
-   "learningObjectives": ""
+   "learningObjectives": "learning"
   }
  },
  {
@@ -652,7 +652,7 @@
     "opened": []
    },
    "bloomsObjectiveLevel": "1",
-   "learningObjectives": ""
+   "learningObjectives": "learning"
   }
  },
  {
@@ -748,11 +748,11 @@
      },
      {
       "name": "Content",
-      "value": "partial"
+      "value": "free auto partial"
      },
      {
       "name": "Programming Language",
-      "value": "bash"
+      "value": "python"
      }
     ],
     "files": [
@@ -787,6 +787,14 @@
      {
       "name": "Assessment Type",
       "value": "Free Text Autograde"
+     },
+     {
+      "name": "Content",
+      "value": "free auto"
+     },
+     {
+      "name": "Programming Language",
+      "value": "python"
      }
     ],
     "files": [
@@ -837,7 +845,7 @@
     "opened": []
    },
    "bloomsObjectiveLevel": "3",
-   "learningObjectives": ""
+   "learningObjectives": "learning"
   }
  },
  {
@@ -1514,6 +1522,14 @@
      {
       "name": "Assessment Type",
       "value": "Fill in the Blanks"
+     },
+     {
+      "name": "Content",
+      "value": "fib"
+     },
+     {
+      "name": "Programming Language",
+      "value": "any"
      }
     ],
     "files": [
@@ -1521,8 +1537,8 @@
     ],
     "opened": []
    },
-   "bloomsObjectiveLevel": "",
-   "learningObjectives": "",
+   "bloomsObjectiveLevel": "1",
+   "learningObjectives": "learning",
    "tokens": {
     "blank": [
      {
@@ -1578,6 +1594,14 @@
      {
       "name": "Assessment Type",
       "value": "Fill in the Blanks"
+     },
+     {
+      "name": "Content",
+      "value": "fib"
+     },
+     {
+      "name": "Programming Language",
+      "value": "any"
      }
     ],
     "files": [
@@ -1585,8 +1609,8 @@
     ],
     "opened": []
    },
-   "bloomsObjectiveLevel": "",
-   "learningObjectives": "",
+   "bloomsObjectiveLevel": "1",
+   "learningObjectives": "learning",
    "tokens": {
     "blank": [
      {
@@ -1641,6 +1665,14 @@
      {
       "name": "Assessment Type",
       "value": "Fill in the Blanks"
+     },
+     {
+      "name": "Content",
+      "value": "fib"
+     },
+     {
+      "name": "Programming Language",
+      "value": "any"
      }
     ],
     "files": [
@@ -1648,8 +1680,8 @@
     ],
     "opened": []
    },
-   "bloomsObjectiveLevel": "",
-   "learningObjectives": "",
+   "bloomsObjectiveLevel": "1",
+   "learningObjectives": "learning",
    "tokens": {
     "blank": [
      {
@@ -1717,6 +1749,14 @@
      {
       "name": "Assessment Type",
       "value": "Advanced Code Test"
+     },
+     {
+      "name": "Content",
+      "value": "advanced"
+     },
+     {
+      "name": "Programming Language",
+      "value": "python"
      }
     ],
     "files": [
@@ -1725,7 +1765,7 @@
     "opened": []
    },
    "bloomsObjectiveLevel": "",
-   "learningObjectives": ""
+   "learningObjectives": "learning"
   }
  },
  {
@@ -1749,6 +1789,14 @@
      {
       "name": "Assessment Type",
       "value": "Advanced Code Test"
+     },
+     {
+      "name": "Content",
+      "value": "advanced"
+     },
+     {
+      "name": "Programming Language",
+      "value": "python"
      }
     ],
     "files": [
@@ -1756,8 +1804,8 @@
     ],
     "opened": []
    },
-   "bloomsObjectiveLevel": "",
-   "learningObjectives": ""
+   "bloomsObjectiveLevel": "1",
+   "learningObjectives": "learning"
   }
  },
  {
@@ -1781,6 +1829,14 @@
      {
       "name": "Assessment Type",
       "value": "Advanced Code Test"
+     },
+     {
+      "name": "Content",
+      "value": "advanced"
+     },
+     {
+      "name": "Programming Language",
+      "value": "python"
      }
     ],
     "files": [
@@ -1788,8 +1844,8 @@
     ],
     "opened": []
    },
-   "bloomsObjectiveLevel": "",
-   "learningObjectives": ""
+   "bloomsObjectiveLevel": "1",
+   "learningObjectives": "learning"
   }
  },
  {
@@ -1813,6 +1869,14 @@
      {
       "name": "Assessment Type",
       "value": "Advanced Code Test"
+     },
+     {
+      "name": "Content",
+      "value": "advanced"
+     },
+     {
+      "name": "Programming Language",
+      "value": "python"
      }
     ],
     "files": [
@@ -1820,8 +1884,8 @@
     ],
     "opened": []
    },
-   "bloomsObjectiveLevel": "",
-   "learningObjectives": ""
+   "bloomsObjectiveLevel": "1",
+   "learningObjectives": "learning"
   }
  },
  {
@@ -1846,6 +1910,14 @@
      {
       "name": "Assessment Type",
       "value": "Free Text Autograde"
+     },
+     {
+      "name": "Content",
+      "value": "free auto partial v2"
+     },
+     {
+      "name": "Programming Language",
+      "value": "python"
      }
     ],
     "files": [
@@ -1853,8 +1925,8 @@
     ],
     "opened": []
    },
-   "bloomsObjectiveLevel": "",
-   "learningObjectives": ""
+   "bloomsObjectiveLevel": "1",
+   "learningObjectives": "learning"
   }
  },
  {
@@ -1923,13 +1995,21 @@
      {
       "name": "Assessment Type",
       "value": "Standard Code Test"
+     },
+     {
+      "name": "Content",
+      "value": "code test"
+     },
+     {
+      "name": "Programming Language",
+      "value": "python"
      }
     ],
     "files": [],
     "opened": []
    },
-   "bloomsObjectiveLevel": "",
-   "learningObjectives": ""
+   "bloomsObjectiveLevel": "1",
+   "learningObjectives": "learning"
   }
  },
  {
@@ -2012,13 +2092,21 @@
      {
       "name": "Assessment Type",
       "value": "Standard Code Test"
+     },
+     {
+      "name": "Content",
+      "value": "code test"
+     },
+     {
+      "name": "Programming Language",
+      "value": "python"
      }
     ],
     "files": [],
     "opened": []
    },
-   "bloomsObjectiveLevel": "",
-   "learningObjectives": ""
+   "bloomsObjectiveLevel": "1",
+   "learningObjectives": "learning"
   }
  },
  {
@@ -2087,13 +2175,21 @@
      {
       "name": "Assessment Type",
       "value": "Standard Code Test"
+     },
+     {
+      "name": "Content",
+      "value": "code test"
+     },
+     {
+      "name": "Programming Language",
+      "value": "python"
      }
     ],
     "files": [],
     "opened": []
    },
-   "bloomsObjectiveLevel": "",
-   "learningObjectives": ""
+   "bloomsObjectiveLevel": "1",
+   "learningObjectives": "learning"
   }
  },
  {
@@ -2162,13 +2258,21 @@
      {
       "name": "Assessment Type",
       "value": "Standard Code Test"
+     },
+     {
+      "name": "Content",
+      "value": "code test"
+     },
+     {
+      "name": "Programming Language",
+      "value": "python"
      }
     ],
     "files": [],
     "opened": []
    },
-   "bloomsObjectiveLevel": "",
-   "learningObjectives": ""
+   "bloomsObjectiveLevel": "1",
+   "learningObjectives": "learning"
   }
  },
  {
@@ -2208,13 +2312,21 @@
      {
       "name": "Assessment Type",
       "value": "Free Text"
+     },
+     {
+      "name": "Content",
+      "value": "fib"
+     },
+     {
+      "name": "Programming Language",
+      "value": "any"
      }
     ],
     "files": [],
     "opened": []
    },
-   "bloomsObjectiveLevel": "",
-   "learningObjectives": ""
+   "bloomsObjectiveLevel": "2",
+   "learningObjectives": "learning"
   }
  },
  {
@@ -2349,6 +2461,14 @@
      {
       "name": "Assessment Type",
       "value": "Fill in the Blanks"
+     },
+     {
+      "name": "Content",
+      "value": "fib"
+     },
+     {
+      "name": "Programming Language",
+      "value": "any"
      }
     ],
     "files": [],
@@ -2398,6 +2518,14 @@
      {
       "name": "Assessment Type",
       "value": "Fill in the Blanks"
+     },
+     {
+      "name": "Content",
+      "value": "fib"
+     },
+     {
+      "name": "Programming Language",
+      "value": "any"
      }
     ],
     "files": [],
@@ -2447,13 +2575,21 @@
      {
       "name": "Assessment Type",
       "value": "Fill in the Blanks"
+     },
+     {
+      "name": "Content",
+      "value": "fib"
+     },
+     {
+      "name": "Programming Language",
+      "value": "any"
      }
     ],
     "files": [],
     "opened": []
    },
-   "bloomsObjectiveLevel": "",
-   "learningObjectives": "",
+   "bloomsObjectiveLevel": "1",
+   "learningObjectives": "learning",
    "tokens": {
     "blank": [
      "1",
