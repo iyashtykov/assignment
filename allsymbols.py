@@ -2,8 +2,6 @@
 
 import sys
 
-total = len(sys.argv)
-
 cmdargs = str(sys.argv)
 
 str1 = "qwertyuiopasdfghjklzxcvbnm";

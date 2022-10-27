@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 import os
 import random
-import requests
 import json
 # import grade submit function
 import sys
@@ -11,10 +10,10 @@ CODIO_UNIT_DATA = os.environ["CODIO_AUTOGRADE_ENV"]
 def main():
   # Execute the test on the student's code
   grade = random.randint(10, 100) + 200
-  feedback = ''  
-  file_name = '/home/codio/workspace/read.html'  
-  with open(file_name, 'r') as file:
-    feedback = file.read()
+  feedback = '<html> html text </html>'  
+  # file_name = '/home/codio/workspace/read.html'  
+  # with open(file_name, 'r') as file:
+  #   feedback = file.read()
   
   
   # Send the grade back to Codio with the penatly factor applied

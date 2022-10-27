@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-import os, requests, sys
+import os, sys
 import random
 text = os.environ['CODIO_FREE_TEXT_ANSWER']
 sys.path.append('/usr/share/codio/assessments')

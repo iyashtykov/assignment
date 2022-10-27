@@ -659,11 +659,11 @@
   "type": "grade-book",
   "taskId": "grade-book-2427660357",
   "source": {
-   "name": "gradebook2",
+   "name": "gradebook partial",
    "showName": true,
-   "isCollapsedOnStart": false,
    "points": 100,
    "arePartialPointsAllowed": true,
+   "rubrics": [],
    "metadata": {
     "tags": [
      {
@@ -693,11 +693,11 @@
   "type": "grade-book",
   "taskId": "grade-book-1053141",
   "source": {
-   "name": "gradebook1",
+   "name": "gradebook simple",
    "showName": true,
-   "isCollapsedOnStart": false,
    "points": 100,
    "arePartialPointsAllowed": false,
+   "rubrics": [],
    "metadata": {
     "tags": [
      {
@@ -756,8 +756,7 @@
      }
     ],
     "files": [
-     "file.js",
-     "partial.sh"
+     "freetextauto_partial_v1.py"
     ],
     "opened": []
    },
@@ -798,8 +797,7 @@
      }
     ],
     "files": [
-     "file.js",
-     "run.sh"
+     "freetextauto_simple.py"
     ],
     "opened": []
    },
@@ -839,8 +837,7 @@
      }
     ],
     "files": [
-     "file.js",
-     "advanced.py"
+     "advanced_partial_v1.py"
     ],
     "opened": []
    },
@@ -1154,8 +1151,7 @@
      }
     ],
     "files": [
-     "file.js",
-     "empty.py"
+     "advanced_simple.py"
     ],
     "opened": []
    },
@@ -1760,7 +1756,7 @@
      }
     ],
     "files": [
-     "file.js"
+     "default_format_partial_v2.py"
     ],
     "opened": []
    },
@@ -1800,7 +1796,7 @@
      }
     ],
     "files": [
-     "file.js"
+     "html_partial_v2.py"
     ],
     "opened": []
    },
@@ -1840,7 +1836,7 @@
      }
     ],
     "files": [
-     "file.js"
+     "md_partial_v2.py"
     ],
     "opened": []
    },
@@ -1880,7 +1876,7 @@
      }
     ],
     "files": [
-     "file.js"
+     "txt_partial_v2.py"
     ],
     "opened": []
    },
@@ -1921,7 +1917,7 @@
      }
     ],
     "files": [
-     "file.js"
+     "freetextauto_partial_v2.py"
     ],
     "opened": []
    },
@@ -2333,7 +2329,7 @@
   "type": "grade-book",
   "taskId": "grade-book-3769268793",
   "source": {
-   "name": "gradebook3 with predefined rubrics",
+   "name": "gradebook with predefined rubrics",
    "showName": true,
    "points": 100,
    "arePartialPointsAllowed": true,
@@ -2365,10 +2361,7 @@
     "opened": []
    },
    "bloomsObjectiveLevel": "",
-   "learningObjectives": "",
-   "showGuidanceAfterResponseOption": {
-    "type": "Never"
-   }
+   "learningObjectives": ""
   }
  },
  {

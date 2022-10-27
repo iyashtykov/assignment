@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 import os
 import random
-import requests
 import json
 # import grade submit function
 import sys
