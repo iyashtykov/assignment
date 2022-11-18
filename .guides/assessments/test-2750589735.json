@@ -1,0 +1,41 @@
+{
+	"source": {
+		"arePartialPointsAllowed": false,
+		"bloomsObjectiveLevel": "1",
+		"codeEnvConfig": "{\"type\":\"javascript\",\"subtype\":\"jslint\",\"files\":[\"js_file_jslint_ok.js\"],\"maxPoints\":100}",
+		"command": "python /usr/share/codio/assessments/assessments.py",
+		"guidance": "**Rationale**",
+		"instructions": "*Instructions here*",
+		"learningObjectives": "learning",
+		"maxAttemptsCount": 0,
+		"metadata": {
+			"files": [
+				"js_file_jslint_ok.js"
+			],
+			"opened": [],
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Advanced Code Test"
+				},
+				{
+					"name": "Content",
+					"value": "jslint"
+				},
+				{
+					"name": "Programming Language",
+					"value": "javascript"
+				}
+			]
+		},
+		"name": "jslint one case ok",
+		"points": 100,
+		"showGuidanceAfterResponseOption": {
+			"type": "Always"
+		},
+		"showName": true,
+		"timeoutSeconds": 300
+	},
+	"taskId": "test-2750589735",
+	"type": "test"
+}

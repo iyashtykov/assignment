@@ -1,0 +1,19 @@
+{
+	"chapter": false,
+	"closeTerminalSession": true,
+	"contentType": "markdown",
+	"files": [
+		{
+			"action": "close",
+			"path": "#tabs"
+		}
+	],
+	"id": "83a97204-cf44-4e41-24fe-94a8003bc862",
+	"layout": "2-panels-tree",
+	"learningObjectives": "",
+	"path": [],
+	"reset": [],
+	"teacherOnly": false,
+	"title": "Advanced code tests",
+	"type": "page"
+}

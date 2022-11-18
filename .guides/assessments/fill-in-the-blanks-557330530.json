@@ -1,0 +1,72 @@
+{
+	"source": {
+		"arePartialPointsAllowed": false,
+		"bloomsObjectiveLevel": "1",
+		"distractors": "",
+		"guidance": "**Rationale**",
+		"instructions": "*Instructions here*",
+		"learningObjectives": "learning",
+		"maxAttemptsCount": 0,
+		"metadata": {
+			"files": [
+				"file.js"
+			],
+			"opened": [],
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Fill in the Blanks"
+				},
+				{
+					"name": "Content",
+					"value": "fib"
+				},
+				{
+					"name": "Programming Language",
+					"value": "any"
+				}
+			]
+		},
+		"name": "fib oneOf show possible values",
+		"points": 100,
+		"showExpectedAnswer": true,
+		"showGuidanceAfterResponseOption": {
+			"type": "Always"
+		},
+		"showName": true,
+		"showValues": true,
+		"text": "place1 or \"place1\" or place2 or \"place2\" \u003c\u003c\u003c\"place1\", \"\"place1\"\", \"place2\", \"\"place2\"\"\u003e\u003e\u003e\nvalue1 or \"value1\" or value2 or \"value2\" \u003c\u003c\u003c\"value1\", \"\"value1\"\", \"value2\", \"\"value2\"\"\u003e\u003e\u003e\n",
+		"tokens": {
+			"blank": [
+				{
+					"type": "oneOf",
+					"value": [
+						"place1",
+						"\"place1\"",
+						"place2",
+						"\"place2\""
+					]
+				},
+				{
+					"type": "oneOf",
+					"value": [
+						"value1",
+						"\"value1\"",
+						"value2",
+						"\"value2\""
+					]
+				}
+			],
+			"regexPositions": [],
+			"text": [
+				"place1 or \"place1\" or place2 or \"place2\" ",
+				0,
+				"\nvalue1 or \"value1\" or value2 or \"value2\" ",
+				0,
+				"\n"
+			]
+		}
+	},
+	"taskId": "fill-in-the-blanks-557330530",
+	"type": "fill-in-the-blanks"
+}

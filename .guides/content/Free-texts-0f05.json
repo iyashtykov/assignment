@@ -1,0 +1,19 @@
+{
+	"chapter": false,
+	"closeTerminalSession": true,
+	"contentType": "markdown",
+	"files": [
+		{
+			"action": "close",
+			"path": "#tabs"
+		}
+	],
+	"id": "0f05153c-e032-0436-5a0d-0810ad5b9bc9",
+	"layout": "2-panels-tree",
+	"learningObjectives": "",
+	"path": [],
+	"reset": [],
+	"teacherOnly": false,
+	"title": "Free texts",
+	"type": "page"
+}

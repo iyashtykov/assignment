@@ -1,0 +1,40 @@
+{
+	"source": {
+		"arePartialPointsAllowed": true,
+		"bloomsObjectiveLevel": "1",
+		"command": "python md_partial_v2.py",
+		"guidance": "**Rationale**",
+		"instructions": "*Instructions here*",
+		"learningObjectives": "learning",
+		"maxAttemptsCount": 0,
+		"metadata": {
+			"files": [
+				"md_partial_v2.py"
+			],
+			"opened": [],
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Advanced Code Test"
+				},
+				{
+					"name": "Content",
+					"value": "advanced"
+				},
+				{
+					"name": "Programming Language",
+					"value": "python"
+				}
+			]
+		},
+		"name": "advanced code test md partial v2",
+		"points": 100,
+		"showGuidanceAfterResponseOption": {
+			"type": "Always"
+		},
+		"showName": true,
+		"timeoutSeconds": 40
+	},
+	"taskId": "test-2544594776",
+	"type": "test"
+}

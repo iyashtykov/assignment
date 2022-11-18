@@ -1,0 +1,19 @@
+{
+	"chapter": false,
+	"closeTerminalSession": true,
+	"contentType": "markdown",
+	"files": [
+		{
+			"action": "close",
+			"path": "#tabs"
+		}
+	],
+	"id": "22ab30ba-218f-7175-8554-87d72047cfe2",
+	"layout": "2-panels-tree",
+	"learningObjectives": "",
+	"path": [],
+	"reset": [],
+	"teacherOnly": false,
+	"title": "Gradebooks",
+	"type": "page"
+}

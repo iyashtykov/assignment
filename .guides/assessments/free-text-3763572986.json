@@ -1,0 +1,40 @@
+{
+	"source": {
+		"arePartialPointsAllowed": true,
+		"bloomsObjectiveLevel": "4",
+		"guidance": "**Rationale**",
+		"instructions": "*Instructions here*",
+		"learningObjectives": "learning",
+		"maxAttemptsCount": 0,
+		"metadata": {
+			"files": [
+				"file.js"
+			],
+			"opened": [],
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Free Text"
+				},
+				{
+					"name": "Content",
+					"value": "free text"
+				},
+				{
+					"name": "Programming Language",
+					"value": "any"
+				}
+			]
+		},
+		"name": "free text partial (plain text + latex)",
+		"points": 100,
+		"previewType": "RAW",
+		"rubrics": [],
+		"showGuidanceAfterResponseOption": {
+			"type": "Always"
+		},
+		"showName": true
+	},
+	"taskId": "free-text-3763572986",
+	"type": "free-text"
+}

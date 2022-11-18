@@ -1,0 +1,25 @@
+{
+	"allowGuideClose": false,
+	"collapsedOnStart": false,
+	"hideBackToDashboard": false,
+	"hideMenu": false,
+	"hideSectionsToggle": false,
+	"lexikonTopic": "",
+	"order": [
+		"Standard-code-tests-9c86",
+		"Advanced-code-tests-83a9",
+		"Multi-choices-970d",
+		"Fill-in-the-blanks-97e9",
+		"Free-texts-0f05",
+		"Free-text-auto-8af9",
+		"Parsons-d420",
+		"Gradebooks-22ab"
+	],
+	"protectLayout": false,
+	"scripts": [],
+	"suppressPageNumbering": false,
+	"theme": "light",
+	"title": "example assignment",
+	"useMarkAsComplete": true,
+	"useSubmitButtons": true
+}

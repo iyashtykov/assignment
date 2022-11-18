@@ -1,0 +1,40 @@
+{
+	"source": {
+		"arePartialPointsAllowed": true,
+		"bloomsObjectiveLevel": "3",
+		"command": "python advanced_partial_v1.py",
+		"guidance": "**Rationale**",
+		"instructions": "*Instructions here*",
+		"learningObjectives": "learning",
+		"maxAttemptsCount": 0,
+		"metadata": {
+			"files": [
+				"advanced_partial_v1.py"
+			],
+			"opened": [],
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Advanced Code Test"
+				},
+				{
+					"name": "Content",
+					"value": "advanced partial"
+				},
+				{
+					"name": "Programming Language",
+					"value": "python"
+				}
+			]
+		},
+		"name": "advanced code test partial v1",
+		"points": 100,
+		"showGuidanceAfterResponseOption": {
+			"type": "Always"
+		},
+		"showName": true,
+		"timeoutSeconds": 40
+	},
+	"taskId": "test-3999572164",
+	"type": "test"
+}

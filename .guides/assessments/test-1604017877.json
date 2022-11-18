@@ -1,0 +1,42 @@
+{
+	"source": {
+		"arePartialPointsAllowed": false,
+		"bloomsObjectiveLevel": "3",
+		"codeEnvConfig": "{\"type\":\"java\",\"subtype\":\"junit\",\"files\":[{\"filePath\":\"javafolder/TestCalcOneCaseOk.java\",\"className\":\"TestCalcOneCaseOk\"}],\"maxPoints\":100,\"wd\":\"\",\"sources\":\"\",\"libs\":\"\",\"testsources\":\"javafolder\",\"partialPoints\":false}",
+		"command": "python /usr/share/codio/assessments/assessments.py",
+		"guidance": "**Rationale**",
+		"instructions": "*Instructions here*",
+		"learningObjectives": "learning",
+		"maxAttemptsCount": 0,
+		"metadata": {
+			"files": [
+				"javafolder/Calc.java",
+				"javafolder/TestCalcOneCaseOk.java"
+			],
+			"opened": [],
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Advanced Code Test"
+				},
+				{
+					"name": "Content",
+					"value": "junit"
+				},
+				{
+					"name": "Programming Language",
+					"value": "java"
+				}
+			]
+		},
+		"name": "java junit one case ok",
+		"points": 100,
+		"showGuidanceAfterResponseOption": {
+			"type": "Always"
+		},
+		"showName": true,
+		"timeoutSeconds": 300
+	},
+	"taskId": "test-1604017877",
+	"type": "test"
+}

@@ -1,0 +1,42 @@
+{
+	"source": {
+		"arePartialPointsAllowed": false,
+		"bloomsObjectiveLevel": "2",
+		"codeEnvConfig": "{\"type\":\"python\",\"subtype\":\"unittest\",\"files\":[\"utest_calc_ok.py\"],\"maxPoints\":100,\"executable\":\"python\",\"pythonwd\":\"\",\"partialPoints\":false}",
+		"command": "python /usr/share/codio/assessments/assessments.py",
+		"guidance": "**Rationale**",
+		"instructions": "*Instructions here*",
+		"learningObjectives": "learning",
+		"maxAttemptsCount": 0,
+		"metadata": {
+			"files": [
+				"calc.py",
+				"utest_calc_ok.py"
+			],
+			"opened": [],
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Advanced Code Test"
+				},
+				{
+					"name": "Content",
+					"value": "python unin tests"
+				},
+				{
+					"name": "Programming Language",
+					"value": "python"
+				}
+			]
+		},
+		"name": "python unit test one case ok",
+		"points": 100,
+		"showGuidanceAfterResponseOption": {
+			"type": "Always"
+		},
+		"showName": true,
+		"timeoutSeconds": 300
+	},
+	"taskId": "test-7899135",
+	"type": "test"
+}
