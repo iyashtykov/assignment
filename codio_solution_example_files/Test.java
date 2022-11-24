@@ -5,7 +5,7 @@
 
 import java.util.Random;
 
-public class test {
+public class Test {
 	public static void main (String[] args){
 		// Generate a random number between 1-100. (See generateRandomNumber method.)
 		int random = generateRandomNumber(100);
