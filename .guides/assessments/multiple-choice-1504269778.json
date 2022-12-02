@@ -9,27 +9,27 @@
 			{
 				"_id": "db0ef4eb-14d0-e162-7a73-e1a10c516099",
 				"correct": true,
-				"answer": "**correct answer 1**"
+				"answer": "correct answer 1"
 			},
 			{
 				"_id": "79a9825b-c33e-9984-f395-c0e212b8f8b6",
 				"correct": false,
-				"answer": "**incorrect answer 1**"
+				"answer": "incorrect answer 1"
 			},
 			{
 				"_id": "0b33359f-b236-a329-3a0a-5c5480d56127",
 				"correct": true,
-				"answer": "**correct answer 2**"
+				"answer": "correct answer 2"
 			},
 			{
 				"_id": "434de086-f069-d818-a79c-6145c5a1f94a",
 				"correct": false,
-				"answer": "**incorrect answer 2**"
+				"answer": "incorrect answer 2"
 			},
 			{
 				"_id": "c3219a8d-7e3d-a5b9-c638-aa159d9bf273",
 				"correct": false,
-				"answer": "**incorrect answer 3**"
+				"answer": "incorrect answer 3"
 			}
 		],
 		"guidance": "**Rationale**",

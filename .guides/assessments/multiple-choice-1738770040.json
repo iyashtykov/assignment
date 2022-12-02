@@ -1,45 +1,47 @@
 {
 	"source": {
+		"name": "multichoice one response",
+		"showName": true,
+		"instructions": "*Instructions here*",
+		"multipleResponse": false,
+		"isRandomized": false,
 		"answers": [
 			{
 				"_id": "30a1ed6e-98b9-3fd0-3eb5-245cfde23158",
-				"answer": "**correct answer**",
-				"correct": true
+				"correct": true,
+				"answer": "correct answer"
 			},
 			{
 				"_id": "7db440f4-42da-b699-b718-7a9bfa684605",
-				"answer": "**incorrect answer 1**",
-				"correct": false
+				"correct": false,
+				"answer": "incorrect answer 1"
 			},
 			{
 				"_id": "4f993dd8-f738-40e4-9355-f54443886e59",
-				"answer": "**incorrect answer 2**",
-				"correct": false
+				"correct": false,
+				"answer": "incorrect answer 2"
 			},
 			{
 				"_id": "aa3b440b-2a35-cc19-2b4a-84639d8ac788",
-				"answer": "**incorrect answer 3**",
-				"correct": false
+				"correct": false,
+				"answer": "incorrect answer 3"
 			},
 			{
 				"_id": "f4671d97-118e-2f4e-9b00-4687e41e666e",
-				"answer": "**incorrect answer 4**",
-				"correct": false
+				"correct": false,
+				"answer": "incorrect answer 4"
 			}
 		],
-		"arePartialPointsAllowed": false,
-		"bloomsObjectiveLevel": "6",
 		"guidance": "**Rationale**",
-		"incorrectPoints": 0,
-		"instructions": "*Instructions here*",
-		"isRandomized": false,
-		"learningObjectives": "learning",
+		"showGuidanceAfterResponseOption": {
+			"type": "Always"
+		},
 		"maxAttemptsCount": 0,
+		"showExpectedAnswer": true,
+		"points": 100,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
 		"metadata": {
-			"files": [
-				"file.js"
-			],
-			"opened": [],
 			"tags": [
 				{
 					"name": "Assessment Type",
@@ -53,16 +55,14 @@
 					"name": "Programming Language",
 					"value": "any"
 				}
-			]
+			],
+			"files": [
+				"file.js"
+			],
+			"opened": []
 		},
-		"multipleResponse": false,
-		"name": "multichoice one response",
-		"points": 100,
-		"showExpectedAnswer": true,
-		"showGuidanceAfterResponseOption": {
-			"type": "Always"
-		},
-		"showName": true
+		"bloomsObjectiveLevel": "6",
+		"learningObjectives": "learning"
 	},
 	"taskId": "multiple-choice-1738770040",
 	"type": "multiple-choice"
