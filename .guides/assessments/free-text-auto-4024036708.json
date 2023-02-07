@@ -1,17 +1,19 @@
 {
 	"source": {
-		"arePartialPointsAllowed": true,
-		"bloomsObjectiveLevel": "6",
-		"command": "python freetextauto_partial_v1.py",
-		"guidance": "**Rationale**",
+		"name": "free text auto partial v1 (plain text - no preview)",
+		"showName": true,
 		"instructions": "*Instructions here*",
-		"learningObjectives": "LEARNING OBJECTIVES",
+		"command": "python freetextauto_partial_v1.py",
+		"timeoutSeconds": 40,
+		"guidance": "**Rationale**",
+		"showGuidanceAfterResponseOption": {
+			"type": "Always"
+		},
 		"maxAttemptsCount": 0,
+		"arePartialPointsAllowed": true,
+		"previewType": "NONE",
+		"points": 100,
 		"metadata": {
-			"files": [
-				"freetextauto_partial_v1.py"
-			],
-			"opened": [],
 			"tags": [
 				{
 					"name": "Assessment Type",
@@ -25,16 +27,14 @@
 					"name": "Programming Language",
 					"value": "python"
 				}
-			]
+			],
+			"files": [
+				"freetextauto_partial_v1.py"
+			],
+			"opened": []
 		},
-		"name": "free text auto partial v1",
-		"points": 100,
-		"previewType": "NONE",
-		"showGuidanceAfterResponseOption": {
-			"type": "Always"
-		},
-		"showName": true,
-		"timeoutSeconds": 40
+		"bloomsObjectiveLevel": "6",
+		"learningObjectives": "LEARNING OBJECTIVES"
 	},
 	"taskId": "free-text-auto-4024036708",
 	"type": "free-text-auto"

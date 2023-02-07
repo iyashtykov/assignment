@@ -1,17 +1,19 @@
 {
 	"source": {
-		"arePartialPointsAllowed": true,
-		"bloomsObjectiveLevel": "1",
-		"command": "python freetextauto_partial_v2.py",
-		"guidance": "**Rationale**",
+		"name": "free text auto partial v2 (markdown + latex)",
+		"showName": true,
 		"instructions": "*Instructions here*",
-		"learningObjectives": "learning",
+		"command": "python freetextauto_partial_v2.py",
+		"timeoutSeconds": 40,
+		"guidance": "**Rationale**",
+		"showGuidanceAfterResponseOption": {
+			"type": "Always"
+		},
 		"maxAttemptsCount": 0,
+		"arePartialPointsAllowed": true,
+		"previewType": "MARKDOWN",
+		"points": 100,
 		"metadata": {
-			"files": [
-				"freetextauto_partial_v2.py"
-			],
-			"opened": [],
 			"tags": [
 				{
 					"name": "Assessment Type",
@@ -25,16 +27,14 @@
 					"name": "Programming Language",
 					"value": "python"
 				}
-			]
+			],
+			"files": [
+				"freetextauto_partial_v2.py"
+			],
+			"opened": []
 		},
-		"name": "free text auto partial v2",
-		"points": 100,
-		"previewType": "MARKDOWN",
-		"showGuidanceAfterResponseOption": {
-			"type": "Always"
-		},
-		"showName": true,
-		"timeoutSeconds": 40
+		"bloomsObjectiveLevel": "1",
+		"learningObjectives": "learning"
 	},
 	"taskId": "free-text-auto-2980779615",
 	"type": "free-text-auto"

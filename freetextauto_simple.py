@@ -3,10 +3,11 @@ import os, sys
 import random
 
 text = os.environ['CODIO_FREE_TEXT_ANSWER']
-
-def main(): 
-  print('hello')
-  if text == 'yes':
+text = text.replace('*', '')
+text = text.replace('$', '')
+def main():
+  print('**$free text auto output$**')
+  if text == 'correct':
     exit(0)      
   else:
     exit(1)  
