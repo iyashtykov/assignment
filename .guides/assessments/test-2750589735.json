@@ -1,18 +1,19 @@
 {
 	"source": {
-		"arePartialPointsAllowed": false,
-		"bloomsObjectiveLevel": "1",
-		"codeEnvConfig": "{\"type\":\"javascript\",\"subtype\":\"jslint\",\"files\":[\"js_file_jslint_ok.js\"],\"maxPoints\":100}",
-		"command": "python /usr/share/codio/assessments/assessments.py",
-		"guidance": "**Rationale**",
+		"name": "jslint one case ok",
+		"showName": true,
 		"instructions": "*Instructions here*",
-		"learningObjectives": "learning",
+		"command": "python /usr/share/codio/assessments/assessments.py",
+		"codeEnvConfig": "{\"type\":\"javascript\",\"subtype\":\"jslint\",\"files\":[\"code_tests/js_file_jslint_ok.js\"],\"maxPoints\":100}",
+		"timeoutSeconds": 300,
+		"guidance": "**Rationale**",
+		"showGuidanceAfterResponseOption": {
+			"type": "Always"
+		},
 		"maxAttemptsCount": 0,
+		"points": 100,
+		"arePartialPointsAllowed": false,
 		"metadata": {
-			"files": [
-				"js_file_jslint_ok.js"
-			],
-			"opened": [],
 			"tags": [
 				{
 					"name": "Assessment Type",
@@ -26,15 +27,14 @@
 					"name": "Programming Language",
 					"value": "javascript"
 				}
-			]
+			],
+			"files": [
+				"js_file_jslint_ok.js"
+			],
+			"opened": []
 		},
-		"name": "jslint one case ok",
-		"points": 100,
-		"showGuidanceAfterResponseOption": {
-			"type": "Always"
-		},
-		"showName": true,
-		"timeoutSeconds": 300
+		"bloomsObjectiveLevel": "1",
+		"learningObjectives": "learning"
 	},
 	"taskId": "test-2750589735",
 	"type": "test"

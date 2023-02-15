@@ -1,17 +1,18 @@
 {
 	"source": {
-		"arePartialPointsAllowed": true,
-		"bloomsObjectiveLevel": "",
-		"command": "python default_format_partial_v2.py",
-		"guidance": "**Rationale**",
+		"name": "advanced code test partial v2 default format",
+		"showName": true,
 		"instructions": "*Instructions here*",
-		"learningObjectives": "learning",
+		"command": "python code_tests/default_format_partial_v2.py",
+		"timeoutSeconds": 40,
+		"guidance": "**Rationale**",
+		"showGuidanceAfterResponseOption": {
+			"type": "Always"
+		},
 		"maxAttemptsCount": 0,
+		"points": 100,
+		"arePartialPointsAllowed": true,
 		"metadata": {
-			"files": [
-				"default_format_partial_v2.py"
-			],
-			"opened": [],
 			"tags": [
 				{
 					"name": "Assessment Type",
@@ -25,15 +26,14 @@
 					"name": "Programming Language",
 					"value": "python"
 				}
-			]
+			],
+			"files": [
+				"default_format_partial_v2.py"
+			],
+			"opened": []
 		},
-		"name": "advanced code test partial v2 default format",
-		"points": 100,
-		"showGuidanceAfterResponseOption": {
-			"type": "Always"
-		},
-		"showName": true,
-		"timeoutSeconds": 40
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": "learning"
 	},
 	"taskId": "test-1034057722",
 	"type": "test"

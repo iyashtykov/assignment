@@ -1,18 +1,42 @@
 {
 	"source": {
-		"arePartialPointsAllowed": false,
-		"bloomsObjectiveLevel": "5",
-		"command": "python argumentscount.py",
-		"guidance": "**Rationale**",
+		"name": "standard code test arguments count in output",
+		"showName": true,
 		"instructions": "*Instructions here*",
-		"learningObjectives": "learning",
+		"command": "python code_tests/argumentscount.py",
+		"preExecuteCommand": "sleep 1",
+		"options": {
+			"timeout": 30,
+			"ignoreCase": false,
+			"ignoreWhitespaces": true,
+			"ignoreNewline": true,
+			"matchSubstring": false
+		},
+		"guidance": "**Rationale**",
+		"showGuidanceAfterResponseOption": {
+			"type": "Always"
+		},
 		"maxAttemptsCount": 0,
+		"points": 100,
+		"showExpectedAnswer": false,
+		"arePartialPointsAllowed": false,
+		"sequence": [
+			{
+				"arguments": "one two three four",
+				"input": "",
+				"output": "5",
+				"showFeedback": true,
+				"feedback": "error feedback1"
+			},
+			{
+				"arguments": "1 2 3",
+				"input": "",
+				"output": "4",
+				"showFeedback": true,
+				"feedback": "error feedback2"
+			}
+		],
 		"metadata": {
-			"files": [
-				"file.js",
-				"argumentscount.py"
-			],
-			"opened": [],
 			"tags": [
 				{
 					"name": "Assessment Type",
@@ -26,39 +50,15 @@
 					"name": "Programming Language",
 					"value": "python"
 				}
-			]
+			],
+			"files": [
+				"file.js",
+				"argumentscount.py"
+			],
+			"opened": []
 		},
-		"name": "standard code test arguments count in output",
-		"options": {
-			"ignoreCase": false,
-			"ignoreNewline": true,
-			"ignoreWhitespaces": true,
-			"matchSubstring": false,
-			"timeout": 30
-		},
-		"points": 100,
-		"preExecuteCommand": "sleep 1",
-		"sequence": [
-			{
-				"arguments": "one two three four",
-				"feedback": "error feedback1",
-				"input": "",
-				"output": "5",
-				"showFeedback": true
-			},
-			{
-				"arguments": "1 2 3",
-				"feedback": "error feedback2",
-				"input": "",
-				"output": "4",
-				"showFeedback": true
-			}
-		],
-		"showExpectedAnswer": false,
-		"showGuidanceAfterResponseOption": {
-			"type": "Always"
-		},
-		"showName": true
+		"bloomsObjectiveLevel": "5",
+		"learningObjectives": "learning"
 	},
 	"taskId": "code-output-compare-135304776",
 	"type": "code-output-compare"

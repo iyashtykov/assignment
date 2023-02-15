@@ -1,7 +1,7 @@
 require 'rspec'
-require_relative '../calculator' # или calculator.rb, без разницы
+require_relative '../calculator'
 
-describe Calculator do # здесь вместо класса Calculator можно быть бы написать строку, но здесь это не имеет смысла
+describe Calculator do
   before { @calculator = Calculator.new('RSpec calculator')}
 
 

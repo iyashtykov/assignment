@@ -3,7 +3,7 @@
 		"name": "free text auto partial v2 (markdown + latex)",
 		"showName": true,
 		"instructions": "*Instructions here*",
-		"command": "python freetextauto_partial_v2.py",
+		"command": "python free_text_autograde/freetextauto_partial_v2.py",
 		"timeoutSeconds": 40,
 		"guidance": "**Rationale**",
 		"showGuidanceAfterResponseOption": {

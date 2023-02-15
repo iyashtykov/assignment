@@ -1,19 +1,19 @@
 {
 	"source": {
-		"arePartialPointsAllowed": false,
-		"bloomsObjectiveLevel": "3",
-		"codeEnvConfig": "{\"type\":\"ruby\",\"subtype\":\"rspec\",\"files\":[\"spec/calculator_ok_spec1.rb\"],\"maxPoints\":100,\"partialPoints\":false}",
-		"command": "python /usr/share/codio/assessments/assessments.py",
-		"guidance": "**Rationale**",
+		"name": "ruby rspec one case ok",
+		"showName": true,
 		"instructions": "*Instructions here*",
-		"learningObjectives": "learning",
+		"command": "python /usr/share/codio/assessments/assessments.py",
+		"codeEnvConfig": "{\"type\":\"ruby\",\"subtype\":\"rspec\",\"files\":[\"code_tests/spec/calculator_ok_spec1.rb\"],\"maxPoints\":100,\"partialPoints\":false}",
+		"timeoutSeconds": 300,
+		"guidance": "**Rationale**",
+		"showGuidanceAfterResponseOption": {
+			"type": "Always"
+		},
 		"maxAttemptsCount": 0,
+		"points": 100,
+		"arePartialPointsAllowed": false,
 		"metadata": {
-			"files": [
-				"spec/calculator_ok_spec1.rb",
-				"calculator.rb"
-			],
-			"opened": [],
 			"tags": [
 				{
 					"name": "Assessment Type",
@@ -27,15 +27,15 @@
 					"name": "Programming Language",
 					"value": "ruby"
 				}
-			]
+			],
+			"files": [
+				"spec/calculator_ok_spec1.rb",
+				"calculator.rb"
+			],
+			"opened": []
 		},
-		"name": "ruby rspec one case ok",
-		"points": 100,
-		"showGuidanceAfterResponseOption": {
-			"type": "Always"
-		},
-		"showName": true,
-		"timeoutSeconds": 300
+		"bloomsObjectiveLevel": "3",
+		"learningObjectives": "learning"
 	},
 	"taskId": "test-536955473",
 	"type": "test"

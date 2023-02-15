@@ -3,7 +3,7 @@
 		"name": "free text auto partial v1 (plain text - no preview)",
 		"showName": true,
 		"instructions": "*Instructions here*",
-		"command": "python freetextauto_partial_v1.py",
+		"command": "python free_text_autograde/freetextauto_partial_v1.py",
 		"timeoutSeconds": 40,
 		"guidance": "**Rationale**",
 		"showGuidanceAfterResponseOption": {

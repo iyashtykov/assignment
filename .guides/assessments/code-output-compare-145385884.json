@@ -1,15 +1,63 @@
 {
 	"source": {
-		"arePartialPointsAllowed": true,
-		"bloomsObjectiveLevel": "1",
-		"command": "python standard_partial_empty.py",
-		"guidance": "**Rationale**",
+		"name": "standard partial empty output",
+		"showName": true,
 		"instructions": "*Instructions here*",
-		"learningObjectives": "learning",
+		"command": "python code_tests/standard_partial_empty.py",
+		"preExecuteCommand": "",
+		"options": {
+			"timeout": 30,
+			"ignoreCase": false,
+			"ignoreWhitespaces": true,
+			"ignoreNewline": true,
+			"matchSubstring": false
+		},
+		"guidance": "**Rationale**",
+		"showGuidanceAfterResponseOption": {
+			"type": "Always"
+		},
 		"maxAttemptsCount": 0,
+		"points": 100,
+		"showExpectedAnswer": false,
+		"arePartialPointsAllowed": true,
+		"sequence": [
+			{
+				"arguments": "",
+				"input": "",
+				"output": "test",
+				"showFeedback": false,
+				"feedback": ""
+			},
+			{
+				"arguments": "1 2 3",
+				"input": "",
+				"output": "",
+				"showFeedback": false,
+				"feedback": ""
+			},
+			{
+				"arguments": "",
+				"input": "1 2 3",
+				"output": "",
+				"showFeedback": false,
+				"feedback": ""
+			},
+			{
+				"arguments": "1 2",
+				"input": "",
+				"output": "test",
+				"showFeedback": false,
+				"feedback": ""
+			},
+			{
+				"arguments": "",
+				"input": "1 2",
+				"output": "test",
+				"showFeedback": false,
+				"feedback": ""
+			}
+		],
 		"metadata": {
-			"files": [],
-			"opened": [],
 			"tags": [
 				{
 					"name": "Assessment Type",
@@ -23,60 +71,12 @@
 					"name": "Programming Language",
 					"value": "python"
 				}
-			]
+			],
+			"files": [],
+			"opened": []
 		},
-		"name": "standard partial empty output",
-		"options": {
-			"ignoreCase": false,
-			"ignoreNewline": true,
-			"ignoreWhitespaces": true,
-			"matchSubstring": false,
-			"timeout": 30
-		},
-		"points": 100,
-		"preExecuteCommand": "",
-		"sequence": [
-			{
-				"arguments": "",
-				"feedback": "",
-				"input": "",
-				"output": "test",
-				"showFeedback": false
-			},
-			{
-				"arguments": "1 2 3",
-				"feedback": "",
-				"input": "",
-				"output": "",
-				"showFeedback": false
-			},
-			{
-				"arguments": "",
-				"feedback": "",
-				"input": "1 2 3",
-				"output": "",
-				"showFeedback": false
-			},
-			{
-				"arguments": "1 2",
-				"feedback": "",
-				"input": "",
-				"output": "test",
-				"showFeedback": false
-			},
-			{
-				"arguments": "",
-				"feedback": "",
-				"input": "1 2",
-				"output": "test",
-				"showFeedback": false
-			}
-		],
-		"showExpectedAnswer": false,
-		"showGuidanceAfterResponseOption": {
-			"type": "Always"
-		},
-		"showName": true
+		"bloomsObjectiveLevel": "1",
+		"learningObjectives": "learning"
 	},
 	"taskId": "code-output-compare-145385884",
 	"type": "code-output-compare"

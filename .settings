@@ -18,7 +18,6 @@ tab_size = 2
 ; enter your git preferences here...
 
 [terminal]
-font_size = 16
 ; enter your terminal preferences here...
 
 [preview]

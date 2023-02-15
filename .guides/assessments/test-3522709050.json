@@ -1,24 +1,19 @@
 {
 	"source": {
-		"arePartialPointsAllowed": true,
-		"bloomsObjectiveLevel": "1",
-		"codeEnvConfig": "{\"type\":\"python\",\"subtype\":\"unittest\",\"files\":[\"utest_calc_ok.py\",\"utest_calc_failed.py\",\"pythonfolder/utest_calc_ok.py\",\"pythonfolder/utest_calc_failed.py\"],\"maxPoints\":100,\"executable\":\"python\",\"pythonwd\":\"\",\"partialPoints\":true}",
-		"command": "python /usr/share/codio/assessments/assessments.py",
-		"guidance": "**Rationale**",
+		"name": "python unit test four files partial",
+		"showName": true,
 		"instructions": "*Instructions here*",
-		"learningObjectives": "learning",
+		"command": "python /usr/share/codio/assessments/assessments.py",
+		"codeEnvConfig": "{\"type\":\"python\",\"subtype\":\"unittest\",\"files\":[\"code_tests/utest_calc_ok.py\",\"code_tests/utest_calc_failed.py\",\"code_tests/pythonfolder/utest_calc_ok.py\",\"code_tests/pythonfolder/utest_calc_failed.py\"],\"maxPoints\":100,\"executable\":\"python\",\"pythonwd\":\"\",\"partialPoints\":true}",
+		"timeoutSeconds": 300,
+		"guidance": "**Rationale**",
+		"showGuidanceAfterResponseOption": {
+			"type": "Always"
+		},
 		"maxAttemptsCount": 0,
+		"points": 100,
+		"arePartialPointsAllowed": true,
 		"metadata": {
-			"files": [
-				"pythonfolder/__init__.py",
-				"pythonfolder/calc.py",
-				"pythonfolder/utest_calc_failed.py",
-				"pythonfolder/utest_calc_ok.py",
-				"calc.py",
-				"utest_calc_failed.py",
-				"utest_calc_ok.py"
-			],
-			"opened": [],
 			"tags": [
 				{
 					"name": "Assessment Type",
@@ -32,15 +27,20 @@
 					"name": "Programming Language",
 					"value": "python"
 				}
-			]
+			],
+			"files": [
+				"pythonfolder/__init__.py",
+				"pythonfolder/calc.py",
+				"pythonfolder/utest_calc_failed.py",
+				"pythonfolder/utest_calc_ok.py",
+				"calc.py",
+				"utest_calc_failed.py",
+				"utest_calc_ok.py"
+			],
+			"opened": []
 		},
-		"name": "python unit test four files partial",
-		"points": 100,
-		"showGuidanceAfterResponseOption": {
-			"type": "Always"
-		},
-		"showName": true,
-		"timeoutSeconds": 300
+		"bloomsObjectiveLevel": "1",
+		"learningObjectives": "learning"
 	},
 	"taskId": "test-3522709050",
 	"type": "test"

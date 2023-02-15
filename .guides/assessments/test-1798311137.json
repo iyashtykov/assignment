@@ -1,17 +1,18 @@
 {
 	"source": {
-		"arePartialPointsAllowed": false,
-		"bloomsObjectiveLevel": "2",
-		"command": "python advanced_simple.py",
-		"guidance": "**Rationale**",
+		"name": "advanced code test simple",
+		"showName": true,
 		"instructions": "*Instructions here*",
-		"learningObjectives": "learning",
+		"command": "python code_tests/advanced_simple.py",
+		"timeoutSeconds": 19,
+		"guidance": "**Rationale**",
+		"showGuidanceAfterResponseOption": {
+			"type": "Always"
+		},
 		"maxAttemptsCount": 0,
+		"points": 100,
+		"arePartialPointsAllowed": false,
 		"metadata": {
-			"files": [
-				"advanced_simple.py"
-			],
-			"opened": [],
 			"tags": [
 				{
 					"name": "Assessment Type",
@@ -25,15 +26,14 @@
 					"name": "Programming Language",
 					"value": "python"
 				}
-			]
+			],
+			"files": [
+				"advanced_simple.py"
+			],
+			"opened": []
 		},
-		"name": "advanced code test simple",
-		"points": 100,
-		"showGuidanceAfterResponseOption": {
-			"type": "Always"
-		},
-		"showName": true,
-		"timeoutSeconds": 19
+		"bloomsObjectiveLevel": "2",
+		"learningObjectives": "learning"
 	},
 	"taskId": "test-1798311137",
 	"type": "test"

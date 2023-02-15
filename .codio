@@ -3,7 +3,7 @@
 
 // Run button configuration
   "commands": {
-        "Node version": "node --version"
+        "change code tests to fails": "bash code_tests_to_fails.sh"
   },
 
 // Preview button configuration

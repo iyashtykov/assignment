@@ -1,18 +1,19 @@
 {
 	"source": {
-		"arePartialPointsAllowed": false,
-		"bloomsObjectiveLevel": "4",
-		"codeEnvConfig": "{\"type\":\"java\",\"subtype\":\"style\",\"files\":[\"javafolder/JavaClassStyleOk1.java\"],\"maxPoints\":100,\"configFile\":\"\"}",
-		"command": "python /usr/share/codio/assessments/assessments.py",
-		"guidance": "**Rationale**",
+		"name": "java style one case ok",
+		"showName": true,
 		"instructions": "*Instructions here*",
-		"learningObjectives": "learning",
+		"command": "python /usr/share/codio/assessments/assessments.py",
+		"codeEnvConfig": "{\"type\":\"java\",\"subtype\":\"style\",\"files\":[\"code_tests/javafolder/JavaClassStyleOk1.java\"],\"maxPoints\":100,\"configFile\":\"\"}",
+		"timeoutSeconds": 300,
+		"guidance": "**Rationale**",
+		"showGuidanceAfterResponseOption": {
+			"type": "Always"
+		},
 		"maxAttemptsCount": 0,
+		"points": 100,
+		"arePartialPointsAllowed": false,
 		"metadata": {
-			"files": [
-				"javafolder/JavaClassStyleOk1.java"
-			],
-			"opened": [],
 			"tags": [
 				{
 					"name": "Assessment Type",
@@ -26,15 +27,14 @@
 					"name": "Programming Language",
 					"value": "java"
 				}
-			]
+			],
+			"files": [
+				"javafolder/JavaClassStyleOk1.java"
+			],
+			"opened": []
 		},
-		"name": "java style one case ok",
-		"points": 100,
-		"showGuidanceAfterResponseOption": {
-			"type": "Always"
-		},
-		"showName": true,
-		"timeoutSeconds": 300
+		"bloomsObjectiveLevel": "4",
+		"learningObjectives": "learning"
 	},
 	"taskId": "test-3188355957",
 	"type": "test"

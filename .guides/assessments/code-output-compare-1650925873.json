@@ -1,18 +1,49 @@
 {
 	"source": {
-		"arePartialPointsAllowed": false,
-		"bloomsObjectiveLevel": "3",
-		"command": "python empty.py",
-		"guidance": "**Rationale**\n\n",
+		"name": "standard code test empty output",
+		"showName": true,
 		"instructions": "*Instructions here*",
-		"learningObjectives": "learning",
+		"command": "python code_tests/empty.py",
+		"preExecuteCommand": "sleep 1",
+		"options": {
+			"timeout": 30,
+			"ignoreCase": false,
+			"ignoreWhitespaces": true,
+			"ignoreNewline": true,
+			"matchSubstring": false
+		},
+		"guidance": "**Rationale**\n\n",
+		"showGuidanceAfterResponseOption": {
+			"type": "Always"
+		},
 		"maxAttemptsCount": 0,
+		"points": 100,
+		"showExpectedAnswer": true,
+		"arePartialPointsAllowed": false,
+		"sequence": [
+			{
+				"arguments": "",
+				"input": "",
+				"output": "",
+				"showFeedback": true,
+				"feedback": "error feedback1"
+			},
+			{
+				"arguments": "1 2 3",
+				"input": "",
+				"output": "",
+				"showFeedback": true,
+				"feedback": "error feedback2"
+			},
+			{
+				"arguments": "",
+				"input": "1 2 3",
+				"output": "",
+				"showFeedback": true,
+				"feedback": "error feedback3"
+			}
+		],
 		"metadata": {
-			"files": [
-				"file.js",
-				"empty.py"
-			],
-			"opened": [],
 			"tags": [
 				{
 					"name": "Assessment Type",
@@ -26,46 +57,15 @@
 					"name": "Programming Language",
 					"value": "python"
 				}
-			]
+			],
+			"files": [
+				"file.js",
+				"empty.py"
+			],
+			"opened": []
 		},
-		"name": "standard code test empty output",
-		"options": {
-			"ignoreCase": false,
-			"ignoreNewline": true,
-			"ignoreWhitespaces": true,
-			"matchSubstring": false,
-			"timeout": 30
-		},
-		"points": 100,
-		"preExecuteCommand": "sleep 1",
-		"sequence": [
-			{
-				"arguments": "",
-				"feedback": "error feedback1",
-				"input": "",
-				"output": "",
-				"showFeedback": true
-			},
-			{
-				"arguments": "1 2 3",
-				"feedback": "error feedback2",
-				"input": "",
-				"output": "",
-				"showFeedback": true
-			},
-			{
-				"arguments": "",
-				"feedback": "error feedback3",
-				"input": "1 2 3",
-				"output": "",
-				"showFeedback": true
-			}
-		],
-		"showExpectedAnswer": true,
-		"showGuidanceAfterResponseOption": {
-			"type": "Always"
-		},
-		"showName": true
+		"bloomsObjectiveLevel": "3",
+		"learningObjectives": "learning"
 	},
 	"taskId": "code-output-compare-1650925873",
 	"type": "code-output-compare"

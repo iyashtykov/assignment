@@ -3,7 +3,7 @@
 		"name": "free text auto simple (plain text + latex)",
 		"showName": true,
 		"instructions": "*Instructions here*",
-		"command": "python freetextauto_simple.py",
+		"command": "python free_text_autograde/freetextauto_simple.py",
 		"timeoutSeconds": 40,
 		"guidance": "**Rationale**",
 		"showGuidanceAfterResponseOption": {
