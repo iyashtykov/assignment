@@ -11,10 +11,10 @@ def main():
   # Execute the test on the student's code
   grade = random.randint(10, 100)
   
-  feedback = '<html> html text </html>'  
-  # file_name = '/home/codio/workspace/read.html'  
-  # with open(file_name, 'r') as file:
-  #   feedback = file.read()
+  # feedback = '<html> html text </html>'  
+  file_name = '/home/codio/workspace/code_tests/read.html'  
+  with open(file_name, 'r') as file:
+    feedback = file.read()
   
   
   # Send the grade back to Codio with the penatly factor applied
