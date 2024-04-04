@@ -20,6 +20,7 @@
 		"points": 100,
 		"showExpectedAnswer": false,
 		"arePartialPointsAllowed": false,
+		"useMaximumScore": false,
 		"sequence": [
 			{
 				"arguments": "",
@@ -52,8 +53,7 @@
 				}
 			],
 			"files": [
-				"file.js",
-				"inputcommands.py"
+				"code_tests/inputcommands.py"
 			],
 			"opened": []
 		},

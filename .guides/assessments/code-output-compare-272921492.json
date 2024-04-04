@@ -20,6 +20,7 @@
 		"points": 100,
 		"showExpectedAnswer": true,
 		"arePartialPointsAllowed": false,
+		"useMaximumScore": false,
 		"sequence": [
 			{
 				"arguments": "",
@@ -59,8 +60,7 @@
 				}
 			],
 			"files": [
-				"file.js",
-				"allsymbols.py"
+				"code_tests/allsymbols.py"
 			],
 			"opened": []
 		},

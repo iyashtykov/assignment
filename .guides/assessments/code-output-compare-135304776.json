@@ -20,6 +20,7 @@
 		"points": 100,
 		"showExpectedAnswer": false,
 		"arePartialPointsAllowed": false,
+		"useMaximumScore": false,
 		"sequence": [
 			{
 				"arguments": "one two three four",
@@ -52,8 +53,7 @@
 				}
 			],
 			"files": [
-				"file.js",
-				"argumentscount.py"
+				"code_tests/argumentscount.py"
 			],
 			"opened": []
 		},

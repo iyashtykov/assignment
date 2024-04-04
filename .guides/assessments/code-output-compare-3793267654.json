@@ -20,6 +20,7 @@
 		"points": 100,
 		"showExpectedAnswer": true,
 		"arePartialPointsAllowed": true,
+		"useMaximumScore": false,
 		"sequence": [
 			{
 				"arguments": "one two three four",
@@ -72,7 +73,9 @@
 					"value": "python"
 				}
 			],
-			"files": [],
+			"files": [
+				"code_tests/standard_partial_argumentscount.py"
+			],
 			"opened": []
 		},
 		"bloomsObjectiveLevel": "1",

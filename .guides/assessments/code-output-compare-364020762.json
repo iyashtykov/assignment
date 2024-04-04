@@ -20,6 +20,7 @@
 		"points": 100,
 		"showExpectedAnswer": false,
 		"arePartialPointsAllowed": true,
+		"useMaximumScore": false,
 		"sequence": [
 			{
 				"arguments": "",
@@ -86,7 +87,9 @@
 					"value": "python"
 				}
 			],
-			"files": [],
+			"files": [
+				"code_tests/standard_partial_allsymbols.py"
+			],
 			"opened": []
 		},
 		"bloomsObjectiveLevel": "1",
