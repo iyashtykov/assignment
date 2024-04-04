@@ -13,6 +13,7 @@
 		"arePartialPointsAllowed": false,
 		"previewType": "RAW",
 		"points": 100,
+		"useMaximumScore": false,
 		"metadata": {
 			"tags": [
 				{
@@ -29,7 +30,7 @@
 				}
 			],
 			"files": [
-				"freetextauto_simple.py"
+				"free_text_autograde/freetextauto_simple.py"
 			],
 			"opened": []
 		},

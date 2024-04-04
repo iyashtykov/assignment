@@ -13,6 +13,7 @@
 		"arePartialPointsAllowed": true,
 		"previewType": "MARKDOWN",
 		"points": 100,
+		"useMaximumScore": false,
 		"metadata": {
 			"tags": [
 				{
@@ -29,7 +30,7 @@
 				}
 			],
 			"files": [
-				"freetextauto_partial_v2.py"
+				"free_text_autograde/freetextauto_partial_v2.py"
 			],
 			"opened": []
 		},
