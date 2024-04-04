@@ -4,7 +4,7 @@
 		"showName": true,
 		"instructions": "*Instructions here*",
 		"command": "python /usr/share/codio/assessments/assessments.py",
-		"codeEnvConfig": "{\"type\":\"java\",\"subtype\":\"junit\",\"files\":[{\"filePath\":\"code_tests/javafolder/TestCalcManyCasesOk.java\",\"className\":\"TestCalcManyCasesOk\"},{\"filePath\":\"code_tests/javafolder/TestCalcManyCasesFailed.java\",\"className\":\"TestCalcManyCasesFailed\"}],\"maxPoints\":100,\"wd\":\"\",\"sources\":\"\",\"libs\":\"\",\"testsources\":\"javafolder\",\"partialPoints\":true}",
+		"codeEnvConfig": "{\"type\":\"java\",\"subtype\":\"junit\",\"files\":[{\"filePath\":\"code_tests/javafolder/TestCalcManyCasesOk.java\",\"className\":\"TestCalcManyCasesOk\"},{\"filePath\":\"code_tests/javafolder/TestCalcManyCasesFailed.java\",\"className\":\"TestCalcManyCasesFailed\"}],\"maxPoints\":100,\"timeout\":300,\"wd\":\"\",\"sources\":\"\",\"libs\":\"\",\"testsources\":\"javafolder\",\"jUnitVersion\":\"4\",\"partialPoints\":true}",
 		"timeoutSeconds": 300,
 		"guidance": "**Rationale**",
 		"showGuidanceAfterResponseOption": {
@@ -13,6 +13,7 @@
 		"maxAttemptsCount": 0,
 		"points": 100,
 		"arePartialPointsAllowed": true,
+		"useMaximumScore": false,
 		"metadata": {
 			"tags": [
 				{
@@ -29,9 +30,9 @@
 				}
 			],
 			"files": [
-				"javafolder/Calc.java",
-				"javafolder/TestCalcManyCasesFailed.java",
-				"javafolder/TestCalcManyCasesOk.java"
+				"code_tests/javafolder/Calc.java",
+				"code_tests/javafolder/TestCalcManyCasesFailed.java",
+				"code_tests/javafolder/TestCalcManyCasesOk.java"
 			],
 			"opened": []
 		},

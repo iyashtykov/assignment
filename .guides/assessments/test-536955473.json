@@ -4,7 +4,7 @@
 		"showName": true,
 		"instructions": "*Instructions here*",
 		"command": "python /usr/share/codio/assessments/assessments.py",
-		"codeEnvConfig": "{\"type\":\"ruby\",\"subtype\":\"rspec\",\"files\":[\"code_tests/spec/calculator_ok_spec1.rb\"],\"maxPoints\":100,\"partialPoints\":false}",
+		"codeEnvConfig": "{\"type\":\"ruby\",\"subtype\":\"rspec\",\"files\":[\"code_tests/spec/calculator_ok_spec1.rb\"],\"maxPoints\":100,\"timeout\":300,\"partialPoints\":false}",
 		"timeoutSeconds": 300,
 		"guidance": "**Rationale**",
 		"showGuidanceAfterResponseOption": {
@@ -13,6 +13,7 @@
 		"maxAttemptsCount": 0,
 		"points": 100,
 		"arePartialPointsAllowed": false,
+		"useMaximumScore": false,
 		"metadata": {
 			"tags": [
 				{
@@ -29,8 +30,8 @@
 				}
 			],
 			"files": [
-				"spec/calculator_ok_spec1.rb",
-				"calculator.rb"
+				"code_tests/spec/calculator_ok_spec1.rb",
+				"code_tests/calculator.rb"
 			],
 			"opened": []
 		},

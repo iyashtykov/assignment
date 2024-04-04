@@ -12,6 +12,7 @@
 		"maxAttemptsCount": 0,
 		"points": 100,
 		"arePartialPointsAllowed": true,
+		"useMaximumScore": false,
 		"metadata": {
 			"tags": [
 				{
@@ -28,7 +29,7 @@
 				}
 			],
 			"files": [
-				"advanced_partial_v1.py"
+				"code_tests/advanced_partial_v1.py"
 			],
 			"opened": []
 		},

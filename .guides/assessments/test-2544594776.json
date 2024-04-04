@@ -12,6 +12,7 @@
 		"maxAttemptsCount": 0,
 		"points": 100,
 		"arePartialPointsAllowed": true,
+		"useMaximumScore": false,
 		"metadata": {
 			"tags": [
 				{
@@ -28,7 +29,8 @@
 				}
 			],
 			"files": [
-				"md_partial_v2.py"
+				"code_tests/md_partial_v2.py",
+				"code_tests/read.md"
 			],
 			"opened": []
 		},

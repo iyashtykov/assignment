@@ -4,7 +4,7 @@
 		"showName": true,
 		"instructions": "*Instructions here*",
 		"command": "python /usr/share/codio/assessments/assessments.py",
-		"codeEnvConfig": "{\"type\":\"python\",\"subtype\":\"unittest\",\"files\":[\"code_tests/utest_calc_ok.py\"],\"maxPoints\":100,\"executable\":\"python\",\"pythonwd\":\"\",\"partialPoints\":false}",
+		"codeEnvConfig": "{\"type\":\"python\",\"subtype\":\"unittest\",\"files\":[\"code_tests/utest_calc_ok.py\"],\"maxPoints\":100,\"timeout\":300,\"executable\":\"python\",\"pythonwd\":\"\",\"partialPoints\":false}",
 		"timeoutSeconds": 300,
 		"guidance": "**Rationale**",
 		"showGuidanceAfterResponseOption": {
@@ -13,6 +13,7 @@
 		"maxAttemptsCount": 0,
 		"points": 100,
 		"arePartialPointsAllowed": false,
+		"useMaximumScore": false,
 		"metadata": {
 			"tags": [
 				{
@@ -29,8 +30,9 @@
 				}
 			],
 			"files": [
-				"calc.py",
-				"utest_calc_ok.py"
+				"code_tests/__init__.py",
+				"code_tests/calc.py",
+				"code_tests/utest_calc_ok.py"
 			],
 			"opened": []
 		},

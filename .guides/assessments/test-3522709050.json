@@ -4,7 +4,7 @@
 		"showName": true,
 		"instructions": "*Instructions here*",
 		"command": "python /usr/share/codio/assessments/assessments.py",
-		"codeEnvConfig": "{\"type\":\"python\",\"subtype\":\"unittest\",\"files\":[\"code_tests/utest_calc_ok.py\",\"code_tests/utest_calc_failed.py\",\"code_tests/pythonfolder/utest_calc_ok.py\",\"code_tests/pythonfolder/utest_calc_failed.py\"],\"maxPoints\":100,\"executable\":\"python\",\"pythonwd\":\"\",\"partialPoints\":true}",
+		"codeEnvConfig": "{\"type\":\"python\",\"subtype\":\"unittest\",\"files\":[\"code_tests/utest_calc_ok.py\",\"code_tests/utest_calc_failed.py\",\"code_tests/pythonfolder/utest_calc_ok.py\",\"code_tests/pythonfolder/utest_calc_failed.py\"],\"maxPoints\":100,\"timeout\":300,\"executable\":\"python\",\"pythonwd\":\"\",\"partialPoints\":true}",
 		"timeoutSeconds": 300,
 		"guidance": "**Rationale**",
 		"showGuidanceAfterResponseOption": {
@@ -13,6 +13,7 @@
 		"maxAttemptsCount": 0,
 		"points": 100,
 		"arePartialPointsAllowed": true,
+		"useMaximumScore": false,
 		"metadata": {
 			"tags": [
 				{
@@ -29,13 +30,14 @@
 				}
 			],
 			"files": [
-				"pythonfolder/__init__.py",
-				"pythonfolder/calc.py",
-				"pythonfolder/utest_calc_failed.py",
-				"pythonfolder/utest_calc_ok.py",
-				"calc.py",
-				"utest_calc_failed.py",
-				"utest_calc_ok.py"
+				"code_tests/pythonfolder/__init__.py",
+				"code_tests/pythonfolder/calc.py",
+				"code_tests/pythonfolder/utest_calc_failed.py",
+				"code_tests/pythonfolder/utest_calc_ok.py",
+				"code_tests/__init__.py",
+				"code_tests/calc.py",
+				"code_tests/utest_calc_failed.py",
+				"code_tests/utest_calc_ok.py"
 			],
 			"opened": []
 		},
