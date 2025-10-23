@@ -1,0 +1,22 @@
+{
+	"id": "55ecaf6c-b58f-026b-129c-60b16c11ee4c",
+	"title": "LLM rubrics",
+	"files": [
+		{
+			"path": "#tabs",
+			"action": "close"
+		},
+		{
+			"path": "rubrics/rubrics.py",
+			"panel": 0,
+			"action": "open"
+		}
+	],
+	"layout": "2-panels-tree",
+	"path": [],
+	"type": "page",
+	"contentType": "markdown",
+	"teacherOnly": false,
+	"closeTerminalSession": true,
+	"learningObjectives": ""
+}

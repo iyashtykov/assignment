@@ -1,0 +1,17 @@
+{
+	"id": "4b9fbce7-9403-d248-0ba7-edea9e0ea3e7",
+	"title": "eFibs",
+	"files": [
+		{
+			"path": "#tabs",
+			"action": "close"
+		}
+	],
+	"layout": "2-panels-tree",
+	"path": [],
+	"type": "page",
+	"contentType": "markdown",
+	"teacherOnly": false,
+	"closeTerminalSession": true,
+	"learningObjectives": ""
+}

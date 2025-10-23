@@ -1,0 +1,20 @@
+{
+	"type": "splice",
+	"taskId": "splice-1494234792",
+	"source": {
+		"name": "SPLICE",
+		"showName": true,
+		"instructions": "*Instructions here*",
+		"url": "https://acos.cs.vt.edu/html/acos-pcex/acos-pcex-examples/py_f_to_c_conversion__664e502391363872f0ba38dd",
+		"metadata": {
+			"tags": [],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": "",
+		"points": 100,
+		"arePartialPointsAllowed": true,
+		"useMaximumScore": false
+	}
+}

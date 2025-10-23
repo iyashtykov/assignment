@@ -1,0 +1,63 @@
+{
+	"type": "llm-based-rubric",
+	"taskId": "llm-based-rubric-70609702",
+	"source": {
+		"name": "LLM rubric",
+		"showName": true,
+		"instructions": "*Instructions here*",
+		"metadata": {
+			"tags": [],
+			"files": [
+				"rubrics/rubrics.py"
+			],
+			"opened": [
+				{
+					"type": "file",
+					"panelNumber": 0,
+					"content": "rubrics/rubrics.py"
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": "",
+		"guidance": "**Rationale**",
+		"showGuidanceAfterResponseOption": {
+			"type": "Always"
+		},
+		"maxAttemptsCount": 0,
+		"points": 100,
+		"arePartialPointsAllowed": true,
+		"rubrics": [
+			{
+				"id": "1",
+				"title": "Code Style",
+				"description": "The code follows proper Python style conventions including appropriate use of whitespace, consistent naming conventions, and readable code structure. Variable and function names should be meaningful and follow Python's snake_case convention.",
+				"points": 25
+			},
+			{
+				"id": "2",
+				"title": "Indentation",
+				"description": "The code uses consistent indentation (4 spaces per level is the Python standard) throughout the program. Proper indentation is maintained for all code blocks, conditional statements, loops, and function definitions.",
+				"points": 25
+			},
+			{
+				"id": "3",
+				"title": "Code Comments",
+				"description": "The code includes appropriate comments that explain the purpose of the program, functions, and complex logic. Comments should be meaningful, concise, and help readers understand the code's functionality without stating the obvious.",
+				"points": 25
+			},
+			{
+				"id": "4",
+				"title": "Program Output",
+				"description": "The program produces the expected output as demonstrated in the sample solution. The output should be correctly formatted and display the intended information (in this case, printing 'test' to the console).",
+				"points": 25
+			}
+		],
+		"solutions": [
+			{
+				"path": "rubrics/rubrics.py",
+				"content": "#!/usr/bin/env python\n\nimport sys\n\n# print something\nprint(\"%s\" % \"test\")\n\nexit(0)"
+			}
+		]
+	}
+}

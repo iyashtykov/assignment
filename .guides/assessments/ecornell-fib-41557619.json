@@ -1,0 +1,54 @@
+{
+	"type": "ecornell-fib",
+	"taskId": "ecornell-fib-41557619",
+	"source": {
+		"name": "eFib partial show possible values",
+		"showName": true,
+		"instructions": "*Instructions here*",
+		"showValues": true,
+		"text": "0 <<<1>>> 2 <<<3>>> 4 <<<5>>> 6",
+		"distractors": "7\n8",
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "eCornell Fill in the Blanks"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": "",
+		"guidance": "**Rationale**",
+		"showGuidanceAfterResponseOption": {
+			"type": "Always"
+		},
+		"maxAttemptsCount": 0,
+		"showExpectedAnswerOption": {
+			"type": "Always"
+		},
+		"points": 100,
+		"arePartialPointsAllowed": true,
+		"useMaximumScore": false,
+		"forceScoreShow": true,
+		"highlightCorrectAnswers": true,
+		"tokens": {
+			"blank": [
+				"1",
+				"3",
+				"5"
+			],
+			"text": [
+				"0 ",
+				0,
+				" 2 ",
+				0,
+				" 4 ",
+				0,
+				" 6"
+			],
+			"regexPositions": []
+		}
+	}
+}

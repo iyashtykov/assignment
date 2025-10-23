@@ -1,0 +1,63 @@
+{
+	"type": "llm-based-auto-rubric",
+	"taskId": "llm-based-auto-rubric-3873121877",
+	"source": {
+		"name": "LLM rubric autograde",
+		"showName": true,
+		"instructions": "*Instructions here*",
+		"metadata": {
+			"tags": [],
+			"files": [
+				"rubrics/rubrics.py"
+			],
+			"opened": [
+				{
+					"type": "file",
+					"panelNumber": 0,
+					"content": "rubrics/rubrics.py"
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": "",
+		"guidance": "**Rationale**",
+		"showGuidanceAfterResponseOption": {
+			"type": "Always"
+		},
+		"maxAttemptsCount": 0,
+		"points": 100,
+		"arePartialPointsAllowed": true,
+		"rubrics": [
+			{
+				"id": "1",
+				"title": "Code Style",
+				"description": "The code follows proper Python style conventions including appropriate variable naming, consistent use of quotes, proper spacing around operators, and adherence to PEP 8 guidelines where applicable.",
+				"points": 25
+			},
+			{
+				"id": "2",
+				"title": "Indentation",
+				"description": "The code uses consistent indentation (preferably 4 spaces per level) throughout the program. All code blocks are properly indented to show the correct structure and hierarchy.",
+				"points": 25
+			},
+			{
+				"id": "3",
+				"title": "Code Comments",
+				"description": "The code includes appropriate comments that explain the purpose of the program, key sections, and any complex logic. Comments should be meaningful and help in understanding the code's functionality.",
+				"points": 25
+			},
+			{
+				"id": "4",
+				"title": "Program Output",
+				"description": "The program produces the expected output when executed. The print statement correctly displays the string 'test' and the program exits with a status code of 0 as shown in the sample solution.",
+				"points": 25
+			}
+		],
+		"solutions": [
+			{
+				"path": "rubrics/rubrics.py",
+				"content": "#!/usr/bin/env python\n\nimport sys\n\n# print something\nprint(\"%s\" % \"test\")\n\nexit(0)"
+			}
+		]
+	}
+}

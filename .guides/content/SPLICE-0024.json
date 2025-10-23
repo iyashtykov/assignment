@@ -1,0 +1,17 @@
+{
+	"id": "00240930-dcdb-2b09-220b-d410a9234b0a",
+	"title": "SPLICE",
+	"files": [
+		{
+			"path": "#tabs",
+			"action": "close"
+		}
+	],
+	"layout": "2-panels-tree",
+	"path": [],
+	"type": "page",
+	"contentType": "markdown",
+	"teacherOnly": false,
+	"closeTerminalSession": true,
+	"learningObjectives": ""
+}

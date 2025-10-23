@@ -13,7 +13,10 @@
 		"Free-texts-0f05",
 		"Free-text-auto-8af9",
 		"Parsons-d420",
-		"Gradebooks-22ab"
+		"Gradebooks-22ab",
+		"LLM-rubrics-55ec",
+		"SPLICE-0024",
+		"eFibs-4b9f"
 	],
 	"protectLayout": false,
 	"scripts": [],
