@@ -12,31 +12,6 @@
 			"ignoreNewline": true,
 			"matchSubstring": false
 		},
-		"guidance": "**Rationale**",
-		"showGuidanceAfterResponseOption": {
-			"type": "Always"
-		},
-		"maxAttemptsCount": 0,
-		"points": 100,
-		"showExpectedAnswer": false,
-		"arePartialPointsAllowed": false,
-		"useMaximumScore": false,
-		"sequence": [
-			{
-				"arguments": "",
-				"input": "input1\ninput2",
-				"output": "input1\ninput2",
-				"showFeedback": true,
-				"feedback": "error feedback1"
-			},
-			{
-				"arguments": "",
-				"input": "input1\ninput2\ninput3",
-				"output": "input1\ninput2",
-				"showFeedback": true,
-				"feedback": "error feedback2"
-			}
-		],
 		"metadata": {
 			"tags": [
 				{
@@ -58,7 +33,34 @@
 			"opened": []
 		},
 		"bloomsObjectiveLevel": "2",
-		"learningObjectives": "learning"
+		"learningObjectives": "learning",
+		"guidance": "**Rationale**",
+		"showGuidanceAfterResponseOption": {
+			"type": "Always"
+		},
+		"maxAttemptsCount": 0,
+		"points": 100,
+		"showExpectedAnswerOption": {
+			"type": "Never"
+		},
+		"arePartialPointsAllowed": false,
+		"useMaximumScore": false,
+		"sequence": [
+			{
+				"arguments": "",
+				"input": "input1\ninput2",
+				"output": "input1\ninput2",
+				"showFeedback": true,
+				"feedback": "error feedback1"
+			},
+			{
+				"arguments": "",
+				"input": "input1\ninput2\ninput3",
+				"output": "input1\ninput2",
+				"showFeedback": true,
+				"feedback": "error feedback2"
+			}
+		]
 	},
 	"taskId": "code-output-compare-1532525639",
 	"type": "code-output-compare"

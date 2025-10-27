@@ -12,31 +12,6 @@
 			"ignoreNewline": true,
 			"matchSubstring": false
 		},
-		"guidance": "**Rationale**",
-		"showGuidanceAfterResponseOption": {
-			"type": "Always"
-		},
-		"maxAttemptsCount": 0,
-		"points": 100,
-		"showExpectedAnswer": false,
-		"arePartialPointsAllowed": false,
-		"useMaximumScore": false,
-		"sequence": [
-			{
-				"arguments": "one two three four",
-				"input": "",
-				"output": "5",
-				"showFeedback": true,
-				"feedback": "error feedback1"
-			},
-			{
-				"arguments": "1 2 3",
-				"input": "",
-				"output": "4",
-				"showFeedback": true,
-				"feedback": "error feedback2"
-			}
-		],
 		"metadata": {
 			"tags": [
 				{
@@ -58,7 +33,34 @@
 			"opened": []
 		},
 		"bloomsObjectiveLevel": "5",
-		"learningObjectives": "learning"
+		"learningObjectives": "learning",
+		"guidance": "**Rationale**",
+		"showGuidanceAfterResponseOption": {
+			"type": "Always"
+		},
+		"maxAttemptsCount": 0,
+		"points": 100,
+		"showExpectedAnswerOption": {
+			"type": "Never"
+		},
+		"arePartialPointsAllowed": false,
+		"useMaximumScore": false,
+		"sequence": [
+			{
+				"arguments": "one two three four",
+				"input": "",
+				"output": "5",
+				"showFeedback": true,
+				"feedback": "error feedback1"
+			},
+			{
+				"arguments": "1 2 3",
+				"input": "",
+				"output": "4",
+				"showFeedback": true,
+				"feedback": "error feedback2"
+			}
+		]
 	},
 	"taskId": "code-output-compare-135304776",
 	"type": "code-output-compare"

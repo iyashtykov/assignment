@@ -6,14 +6,6 @@
 		"command": "python /usr/share/codio/assessments/assessments.py",
 		"codeEnvConfig": "{\"type\":\"python\",\"subtype\":\"unittest\",\"files\":[\"code_tests/utest_calc_ok.py\",\"code_tests/utest_calc_failed.py\",\"code_tests/pythonfolder/utest_calc_ok.py\",\"code_tests/pythonfolder/utest_calc_failed.py\"],\"maxPoints\":100,\"timeout\":300,\"executable\":\"python\",\"pythonwd\":\"\",\"partialPoints\":true}",
 		"timeoutSeconds": 300,
-		"guidance": "**Rationale**",
-		"showGuidanceAfterResponseOption": {
-			"type": "Always"
-		},
-		"maxAttemptsCount": 0,
-		"points": 100,
-		"arePartialPointsAllowed": true,
-		"useMaximumScore": false,
 		"metadata": {
 			"tags": [
 				{
@@ -42,7 +34,15 @@
 			"opened": []
 		},
 		"bloomsObjectiveLevel": "1",
-		"learningObjectives": "learning"
+		"learningObjectives": "learning",
+		"guidance": "**Rationale**",
+		"showGuidanceAfterResponseOption": {
+			"type": "Always"
+		},
+		"maxAttemptsCount": 0,
+		"points": 100,
+		"arePartialPointsAllowed": true,
+		"useMaximumScore": false
 	},
 	"taskId": "test-3522709050",
 	"type": "test"

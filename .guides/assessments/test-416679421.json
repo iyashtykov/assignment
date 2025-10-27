@@ -6,14 +6,6 @@
 		"command": "python /usr/share/codio/assessments/assessments.py",
 		"codeEnvConfig": "{\"type\":\"python\",\"subtype\":\"style\",\"files\":[\"code_tests/pythonfolder/pythonstyleok1.py\"],\"maxPoints\":100,\"timeout\":300}",
 		"timeoutSeconds": 300,
-		"guidance": "**Rationale**",
-		"showGuidanceAfterResponseOption": {
-			"type": "Always"
-		},
-		"maxAttemptsCount": 0,
-		"points": 100,
-		"arePartialPointsAllowed": false,
-		"useMaximumScore": false,
 		"metadata": {
 			"tags": [
 				{
@@ -35,7 +27,15 @@
 			"opened": []
 		},
 		"bloomsObjectiveLevel": "3",
-		"learningObjectives": "learning"
+		"learningObjectives": "learning",
+		"guidance": "**Rationale**",
+		"showGuidanceAfterResponseOption": {
+			"type": "Always"
+		},
+		"maxAttemptsCount": 0,
+		"points": 100,
+		"arePartialPointsAllowed": false,
+		"useMaximumScore": false
 	},
 	"taskId": "test-416679421",
 	"type": "test"

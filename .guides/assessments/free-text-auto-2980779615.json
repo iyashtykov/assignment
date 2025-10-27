@@ -5,15 +5,6 @@
 		"instructions": "*Instructions here*",
 		"command": "python free_text_autograde/freetextauto_partial_v2.py",
 		"timeoutSeconds": 40,
-		"guidance": "**Rationale**",
-		"showGuidanceAfterResponseOption": {
-			"type": "Always"
-		},
-		"maxAttemptsCount": 0,
-		"arePartialPointsAllowed": true,
-		"previewType": "MARKDOWN",
-		"points": 100,
-		"useMaximumScore": false,
 		"metadata": {
 			"tags": [
 				{
@@ -35,7 +26,16 @@
 			"opened": []
 		},
 		"bloomsObjectiveLevel": "1",
-		"learningObjectives": "learning"
+		"learningObjectives": "learning",
+		"guidance": "**Rationale**",
+		"showGuidanceAfterResponseOption": {
+			"type": "Always"
+		},
+		"maxAttemptsCount": 0,
+		"arePartialPointsAllowed": true,
+		"previewType": "MARKDOWN",
+		"points": 100,
+		"useMaximumScore": false
 	},
 	"taskId": "free-text-auto-2980779615",
 	"type": "free-text-auto"

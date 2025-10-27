@@ -12,13 +12,37 @@
 			"ignoreNewline": true,
 			"matchSubstring": false
 		},
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Standard Code Test"
+				},
+				{
+					"name": "Content",
+					"value": "code test"
+				},
+				{
+					"name": "Programming Language",
+					"value": "python"
+				}
+			],
+			"files": [
+				"code_tests/allsymbols.py"
+			],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "4",
+		"learningObjectives": "learning",
 		"guidance": "**Rationale**",
 		"showGuidanceAfterResponseOption": {
 			"type": "Always"
 		},
 		"maxAttemptsCount": 0,
 		"points": 100,
-		"showExpectedAnswer": true,
+		"showExpectedAnswerOption": {
+			"type": "Always"
+		},
 		"arePartialPointsAllowed": false,
 		"useMaximumScore": false,
 		"sequence": [
@@ -43,29 +67,7 @@
 				"showFeedback": true,
 				"feedback": "error feedback3"
 			}
-		],
-		"metadata": {
-			"tags": [
-				{
-					"name": "Assessment Type",
-					"value": "Standard Code Test"
-				},
-				{
-					"name": "Content",
-					"value": "code test"
-				},
-				{
-					"name": "Programming Language",
-					"value": "python"
-				}
-			],
-			"files": [
-				"code_tests/allsymbols.py"
-			],
-			"opened": []
-		},
-		"bloomsObjectiveLevel": "4",
-		"learningObjectives": "learning"
+		]
 	},
 	"taskId": "code-output-compare-272921492",
 	"type": "code-output-compare"

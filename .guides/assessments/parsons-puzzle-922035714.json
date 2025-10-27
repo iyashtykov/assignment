@@ -1,15 +1,12 @@
 {
 	"source": {
-		"bloomsObjectiveLevel": "4",
-		"grader": "4",
-		"guidance": "**Rationale**",
-		"initial": "for (int i=0;i\u003c3;i++) {\nSystem.out.print(\\\"I \\\");\nSystem.out.print(\\\"am \\\");\nSystem.out.print(\\\"a Java program \\\");\n}",
+		"name": "language translation grader 1",
+		"showName": true,
 		"instructions": "Construct code by reordering and indenting the lines.",
-		"learningObjectives": "learning",
-		"maxAttemptsCount": 0,
+		"initial": "for (int i=0;i<3;i++) {\nSystem.out.print(\\\"I \\\");\nSystem.out.print(\\\"am \\\");\nSystem.out.print(\\\"a Java program \\\");\n}",
+		"options": "{\"sortableId\":\"sortable\",\"max_wrong_lines\":1,\"exec_limit\":2500,\"can_indent\":true,\"x_indent\":50,\"lang\":\"en\",\"show_feedback\":true,\"executable_code\":\"for x in range(3):\\noutput += 'I '\\noutput += 'am '\\noutput += 'a Java program '\\npass\\n\",\"programmingLang\":\"java\",\"vartests\":[{\"message\":\"Testing...\",\"initcode\":\"output = ''\",\"code\":\"\",\"variables\":{\"output\":\"I am a Java program I am a Java program I am a Java program \"}}]}",
+		"grader": "4",
 		"metadata": {
-			"files": [],
-			"opened": [],
 			"tags": [
 				{
 					"name": "Assessment Type",
@@ -23,15 +20,19 @@
 					"name": "Programming Language",
 					"value": "parsons"
 				}
-			]
+			],
+			"files": [],
+			"opened": []
 		},
-		"name": "language translation grader 1",
-		"options": "{\"max_wrong_lines\":1,\"vartests\":[{\"initcode\":\"output = ''\",\"code\":\"\",\"message\":\"Testing...\",\"variables\":{\"output\":\"I am a Java program I am a Java program I am a Java program \"}}],\"executable_code\":\"for x in range(3):\\noutput += 'I '\\noutput += 'am '\\noutput += 'a Java program '\\npass\\n\",\"programmingLang\":\"java\"}",
-		"points": 100,
+		"bloomsObjectiveLevel": "4",
+		"learningObjectives": "learning",
+		"guidance": "**Rationale**",
 		"showGuidanceAfterResponseOption": {
 			"type": "Always"
 		},
-		"showName": true
+		"maxAttemptsCount": 0,
+		"points": 100,
+		"useMaximumScore": false
 	},
 	"taskId": "parsons-puzzle-922035714",
 	"type": "parsons-puzzle"

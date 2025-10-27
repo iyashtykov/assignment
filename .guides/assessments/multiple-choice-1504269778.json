@@ -32,15 +32,6 @@
 				"answer": "incorrect answer 3"
 			}
 		],
-		"guidance": "**Rationale**",
-		"showGuidanceAfterResponseOption": {
-			"type": "Always"
-		},
-		"maxAttemptsCount": 0,
-		"showExpectedAnswer": true,
-		"points": 100,
-		"incorrectPoints": 0,
-		"arePartialPointsAllowed": true,
 		"metadata": {
 			"tags": [
 				{
@@ -60,7 +51,19 @@
 			"opened": []
 		},
 		"bloomsObjectiveLevel": "1",
-		"learningObjectives": "learning"
+		"learningObjectives": "learning",
+		"guidance": "**Rationale**",
+		"showGuidanceAfterResponseOption": {
+			"type": "Always"
+		},
+		"maxAttemptsCount": 0,
+		"showExpectedAnswerOption": {
+			"type": "Always"
+		},
+		"points": 100,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": true,
+		"useMaximumScore": false
 	},
 	"taskId": "multiple-choice-1504269778",
 	"type": "multiple-choice"

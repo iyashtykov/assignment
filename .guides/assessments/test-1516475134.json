@@ -6,14 +6,6 @@
 		"command": "python /usr/share/codio/assessments/assessments.py",
 		"codeEnvConfig": "{\"type\":\"java\",\"subtype\":\"junit\",\"files\":[{\"filePath\":\"code_tests/javafolder/TestCalcManyCasesOk.java\",\"className\":\"TestCalcManyCasesOk\"},{\"filePath\":\"code_tests/javafolder/TestCalcManyCasesFailed.java\",\"className\":\"TestCalcManyCasesFailed\"}],\"maxPoints\":100,\"timeout\":300,\"wd\":\"\",\"sources\":\"\",\"libs\":\"\",\"testsources\":\"javafolder\",\"jUnitVersion\":\"4\",\"partialPoints\":true}",
 		"timeoutSeconds": 300,
-		"guidance": "**Rationale**",
-		"showGuidanceAfterResponseOption": {
-			"type": "Always"
-		},
-		"maxAttemptsCount": 0,
-		"points": 100,
-		"arePartialPointsAllowed": true,
-		"useMaximumScore": false,
 		"metadata": {
 			"tags": [
 				{
@@ -37,7 +29,15 @@
 			"opened": []
 		},
 		"bloomsObjectiveLevel": "3",
-		"learningObjectives": "learning"
+		"learningObjectives": "learning",
+		"guidance": "**Rationale**",
+		"showGuidanceAfterResponseOption": {
+			"type": "Always"
+		},
+		"maxAttemptsCount": 0,
+		"points": 100,
+		"arePartialPointsAllowed": true,
+		"useMaximumScore": false
 	},
 	"taskId": "test-1516475134",
 	"type": "test"

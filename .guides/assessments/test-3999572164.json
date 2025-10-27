@@ -5,14 +5,6 @@
 		"instructions": "*Instructions here*",
 		"command": "python code_tests/advanced_partial_v1.py",
 		"timeoutSeconds": 40,
-		"guidance": "**Rationale**",
-		"showGuidanceAfterResponseOption": {
-			"type": "Always"
-		},
-		"maxAttemptsCount": 0,
-		"points": 100,
-		"arePartialPointsAllowed": true,
-		"useMaximumScore": false,
 		"metadata": {
 			"tags": [
 				{
@@ -34,7 +26,15 @@
 			"opened": []
 		},
 		"bloomsObjectiveLevel": "3",
-		"learningObjectives": "learning"
+		"learningObjectives": "learning",
+		"guidance": "**Rationale**",
+		"showGuidanceAfterResponseOption": {
+			"type": "Always"
+		},
+		"maxAttemptsCount": 0,
+		"points": 100,
+		"arePartialPointsAllowed": true,
+		"useMaximumScore": false
 	},
 	"taskId": "test-3999572164",
 	"type": "test"

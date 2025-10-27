@@ -6,14 +6,6 @@
 		"command": "python /usr/share/codio/assessments/assessments.py",
 		"codeEnvConfig": "{\"type\":\"javascript\",\"subtype\":\"jslint\",\"files\":[\"code_tests/js_file_jslint_ok.js\"],\"maxPoints\":100,\"timeout\":300}",
 		"timeoutSeconds": 300,
-		"guidance": "**Rationale**",
-		"showGuidanceAfterResponseOption": {
-			"type": "Always"
-		},
-		"maxAttemptsCount": 0,
-		"points": 100,
-		"arePartialPointsAllowed": false,
-		"useMaximumScore": false,
 		"metadata": {
 			"tags": [
 				{
@@ -35,7 +27,15 @@
 			"opened": []
 		},
 		"bloomsObjectiveLevel": "1",
-		"learningObjectives": "learning"
+		"learningObjectives": "learning",
+		"guidance": "**Rationale**",
+		"showGuidanceAfterResponseOption": {
+			"type": "Always"
+		},
+		"maxAttemptsCount": 0,
+		"points": 100,
+		"arePartialPointsAllowed": false,
+		"useMaximumScore": false
 	},
 	"taskId": "test-2750589735",
 	"type": "test"

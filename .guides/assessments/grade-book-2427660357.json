@@ -1,11 +1,8 @@
 {
 	"source": {
-		"arePartialPointsAllowed": true,
-		"bloomsObjectiveLevel": "2",
-		"learningObjectives": "",
+		"name": "gradebook partial",
+		"showName": true,
 		"metadata": {
-			"files": [],
-			"opened": [],
 			"tags": [
 				{
 					"name": "Assessment Type",
@@ -19,15 +16,15 @@
 					"name": "Programming Language",
 					"value": "gradebook"
 				}
-			]
+			],
+			"files": [],
+			"opened": []
 		},
-		"name": "gradebook partial",
+		"bloomsObjectiveLevel": "2",
+		"learningObjectives": "",
 		"points": 100,
-		"rubrics": [],
-		"showGuidanceAfterResponseOption": {
-			"type": "Never"
-		},
-		"showName": true
+		"arePartialPointsAllowed": true,
+		"rubrics": []
 	},
 	"taskId": "grade-book-2427660357",
 	"type": "grade-book"

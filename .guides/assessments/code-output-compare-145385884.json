@@ -12,13 +12,37 @@
 			"ignoreNewline": true,
 			"matchSubstring": false
 		},
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Standard Code Test"
+				},
+				{
+					"name": "Content",
+					"value": "code test"
+				},
+				{
+					"name": "Programming Language",
+					"value": "python"
+				}
+			],
+			"files": [
+				"code_tests/standard_partial_empty.py"
+			],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "1",
+		"learningObjectives": "learning",
 		"guidance": "**Rationale**",
 		"showGuidanceAfterResponseOption": {
 			"type": "Always"
 		},
 		"maxAttemptsCount": 0,
 		"points": 100,
-		"showExpectedAnswer": false,
+		"showExpectedAnswerOption": {
+			"type": "Never"
+		},
 		"arePartialPointsAllowed": true,
 		"useMaximumScore": false,
 		"sequence": [
@@ -57,29 +81,7 @@
 				"showFeedback": false,
 				"feedback": ""
 			}
-		],
-		"metadata": {
-			"tags": [
-				{
-					"name": "Assessment Type",
-					"value": "Standard Code Test"
-				},
-				{
-					"name": "Content",
-					"value": "code test"
-				},
-				{
-					"name": "Programming Language",
-					"value": "python"
-				}
-			],
-			"files": [
-				"code_tests/standard_partial_empty.py"
-			],
-			"opened": []
-		},
-		"bloomsObjectiveLevel": "1",
-		"learningObjectives": "learning"
+		]
 	},
 	"taskId": "code-output-compare-145385884",
 	"type": "code-output-compare"

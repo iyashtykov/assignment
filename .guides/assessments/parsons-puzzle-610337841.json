@@ -1,15 +1,12 @@
 {
 	"source": {
-		"bloomsObjectiveLevel": "5",
-		"grader": "5",
-		"guidance": "**Rationale**",
+		"name": "turtle graphics grader",
+		"showName": true,
+		"instructions": "Construct a program by drag&amp;dropping and reordering lines from the\n                        left to the right.\n                        The constructed program should draw a triangle like shown below.",
 		"initial": "REPEAT 3 TIMES\n  forward(100)\n  left(120)\nENDREPEAT\n            ",
-		"instructions": "Construct a program by drag\u0026amp;dropping and reordering lines from the\n                        left to the right.\n                        The constructed program should draw a triangle like shown below.",
-		"learningObjectives": "learning",
-		"maxAttemptsCount": 0,
+		"options": "{\"max_wrong_lines\":1,\"turtleModelCode\":\"modelTurtle.forward(100)\\nmodelTurtle.left(120)\\nmodelTurtle.forward(100)\\nmodelTurtle.left(120)\\nmodelTurtle.forward(100)\\nmodelTurtle.left(120)\",\"executable_code\":\"for i in range(0,3):\\nmyTurtle.forward(100)\\nmyTurtle.left(120)\\npass\",\"programmingLang\":\"pseudo\"}",
+		"grader": "5",
 		"metadata": {
-			"files": [],
-			"opened": [],
 			"tags": [
 				{
 					"name": "Assessment Type",
@@ -23,15 +20,19 @@
 					"name": "Programming Language",
 					"value": "parsons"
 				}
-			]
+			],
+			"files": [],
+			"opened": []
 		},
-		"name": "turtle graphics grader",
-		"options": "{\"max_wrong_lines\":1,\"turtleModelCode\":\"modelTurtle.forward(100)\\nmodelTurtle.left(120)\\nmodelTurtle.forward(100)\\nmodelTurtle.left(120)\\nmodelTurtle.forward(100)\\nmodelTurtle.left(120)\",\"executable_code\":\"for i in range(0,3):\\nmyTurtle.forward(100)\\nmyTurtle.left(120)\\npass\",\"programmingLang\":\"pseudo\"}",
-		"points": 100,
+		"bloomsObjectiveLevel": "5",
+		"learningObjectives": "learning",
+		"guidance": "**Rationale**",
 		"showGuidanceAfterResponseOption": {
 			"type": "Always"
 		},
-		"showName": true
+		"maxAttemptsCount": 0,
+		"points": 100,
+		"useMaximumScore": false
 	},
 	"taskId": "parsons-puzzle-610337841",
 	"type": "parsons-puzzle"

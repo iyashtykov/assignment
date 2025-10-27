@@ -5,15 +5,6 @@
 		"instructions": "*Instructions here*",
 		"command": "python free_text_autograde/freetextauto_simple.py",
 		"timeoutSeconds": 40,
-		"guidance": "**Rationale**",
-		"showGuidanceAfterResponseOption": {
-			"type": "Always"
-		},
-		"maxAttemptsCount": 0,
-		"arePartialPointsAllowed": false,
-		"previewType": "RAW",
-		"points": 100,
-		"useMaximumScore": false,
 		"metadata": {
 			"tags": [
 				{
@@ -35,7 +26,16 @@
 			"opened": []
 		},
 		"bloomsObjectiveLevel": "6",
-		"learningObjectives": "LEARNING OBJECTIVES"
+		"learningObjectives": "LEARNING OBJECTIVES",
+		"guidance": "**Rationale**",
+		"showGuidanceAfterResponseOption": {
+			"type": "Always"
+		},
+		"maxAttemptsCount": 0,
+		"arePartialPointsAllowed": false,
+		"previewType": "RAW",
+		"points": 100,
+		"useMaximumScore": false
 	},
 	"taskId": "free-text-auto-252956828",
 	"type": "free-text-auto"

@@ -1,16 +1,9 @@
 {
 	"source": {
-		"arePartialPointsAllowed": true,
-		"bloomsObjectiveLevel": "4",
-		"guidance": "**Rationale**",
+		"name": "free text partial (plain text + latex)",
+		"showName": true,
 		"instructions": "*Instructions here*",
-		"learningObjectives": "learning",
-		"maxAttemptsCount": 0,
 		"metadata": {
-			"files": [
-				"file.js"
-			],
-			"opened": [],
 			"tags": [
 				{
 					"name": "Assessment Type",
@@ -24,16 +17,23 @@
 					"name": "Programming Language",
 					"value": "any"
 				}
-			]
+			],
+			"files": [
+				"file.js"
+			],
+			"opened": []
 		},
-		"name": "free text partial (plain text + latex)",
-		"points": 100,
-		"previewType": "RAW",
-		"rubrics": [],
+		"bloomsObjectiveLevel": "4",
+		"learningObjectives": "learning",
+		"guidance": "**Rationale**",
 		"showGuidanceAfterResponseOption": {
 			"type": "Always"
 		},
-		"showName": true
+		"maxAttemptsCount": 0,
+		"previewType": "RAW",
+		"arePartialPointsAllowed": true,
+		"points": 100,
+		"rubrics": []
 	},
 	"taskId": "free-text-3763572986",
 	"type": "free-text"

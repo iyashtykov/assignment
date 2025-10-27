@@ -1,11 +1,8 @@
 {
 	"source": {
-		"arePartialPointsAllowed": false,
-		"bloomsObjectiveLevel": "1",
-		"learningObjectives": "",
+		"name": "gradebook simple",
+		"showName": true,
 		"metadata": {
-			"files": [],
-			"opened": [],
 			"tags": [
 				{
 					"name": "Assessment Type",
@@ -19,15 +16,15 @@
 					"name": "Programming Language",
 					"value": "gradebook"
 				}
-			]
+			],
+			"files": [],
+			"opened": []
 		},
-		"name": "gradebook simple",
+		"bloomsObjectiveLevel": "1",
+		"learningObjectives": "",
 		"points": 100,
-		"rubrics": [],
-		"showGuidanceAfterResponseOption": {
-			"type": "Never"
-		},
-		"showName": true
+		"arePartialPointsAllowed": false,
+		"rubrics": []
 	},
 	"taskId": "grade-book-1053141",
 	"type": "grade-book"

@@ -6,14 +6,6 @@
 		"command": "python /usr/share/codio/assessments/assessments.py",
 		"codeEnvConfig": "{\"type\":\"ruby\",\"subtype\":\"rspec\",\"files\":[\"code_tests/spec/calculator_ok_spec1.rb\",\"code_tests/spec/calculator_failed_spec1.rb\",\"code_tests/spec/calculator_ok_spec2.rb\",\"code_tests/spec/calculator_failed_spec2.rb\"],\"maxPoints\":100,\"timeout\":300,\"partialPoints\":true}",
 		"timeoutSeconds": 300,
-		"guidance": "**Rationale**",
-		"showGuidanceAfterResponseOption": {
-			"type": "Always"
-		},
-		"maxAttemptsCount": 0,
-		"points": 100,
-		"arePartialPointsAllowed": true,
-		"useMaximumScore": false,
 		"metadata": {
 			"tags": [
 				{
@@ -39,7 +31,15 @@
 			"opened": []
 		},
 		"bloomsObjectiveLevel": "3",
-		"learningObjectives": "learning"
+		"learningObjectives": "learning",
+		"guidance": "**Rationale**",
+		"showGuidanceAfterResponseOption": {
+			"type": "Always"
+		},
+		"maxAttemptsCount": 0,
+		"points": 100,
+		"arePartialPointsAllowed": true,
+		"useMaximumScore": false
 	},
 	"taskId": "test-680934443",
 	"type": "test"

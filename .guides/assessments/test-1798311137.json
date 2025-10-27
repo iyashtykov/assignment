@@ -5,14 +5,6 @@
 		"instructions": "*Instructions here*",
 		"command": "python code_tests/advanced_simple.py",
 		"timeoutSeconds": 19,
-		"guidance": "**Rationale**",
-		"showGuidanceAfterResponseOption": {
-			"type": "Always"
-		},
-		"maxAttemptsCount": 0,
-		"points": 100,
-		"arePartialPointsAllowed": false,
-		"useMaximumScore": false,
 		"metadata": {
 			"tags": [
 				{
@@ -34,7 +26,15 @@
 			"opened": []
 		},
 		"bloomsObjectiveLevel": "2",
-		"learningObjectives": "learning"
+		"learningObjectives": "learning",
+		"guidance": "**Rationale**",
+		"showGuidanceAfterResponseOption": {
+			"type": "Always"
+		},
+		"maxAttemptsCount": 0,
+		"points": 100,
+		"arePartialPointsAllowed": false,
+		"useMaximumScore": false
 	},
 	"taskId": "test-1798311137",
 	"type": "test"
